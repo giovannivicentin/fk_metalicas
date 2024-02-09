@@ -6,14 +6,14 @@ import { RiWhatsappFill } from 'react-icons/ri';
 export default function Home() {
   return (
     <main className="flex px-10 flex-col items-center justify-center min-h-screen bg-gradient-custom">
-      <div className="w-full sm:w-1/3 flex flex-col gap-10 items-center text-center mb-10 leading-relaxed">
+      <div className="w-full sm:w-1/3 flex flex-col gap-10 items-center sm:text-justify text-center mb-10 leading-relaxed">
         <Image
           src="/logo_white.png"
           alt="white logo"
           width="270"
           height="135"
         />
-        <h1 className="text-l text-white xs:w-1/3 sm:w-2/3">
+        <h1 className="text-l sm:text-xl text-white xs:w-1/3 sm:w-3/3">
           Estamos construindo um novo site para aprimorar sua experiência!
           Enquanto isso, conecte-se conosco nas redes sociais para ficar
           atualizado. Agradecemos pela compreensão e mal podemos esperar para
