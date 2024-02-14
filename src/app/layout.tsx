@@ -1,16 +1,11 @@
 import type { Metadata } from 'next';
 import { Heebo } from 'next/font/google';
-import localFont from 'next/font/local';
 import './globals.css';
 
 const heebo = Heebo({
   weight: ['400', '700'],
   subsets: ['latin'],
   variable: '--font-heebo',
-});
-
-const futura = localFont({
-  src: './fonts/Futura.ttf',
 });
 
 export const metadata: Metadata = {
