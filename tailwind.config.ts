@@ -20,7 +20,6 @@ const config = {
     extend: {
       fontFamily: {
         heebo: ['var(--font-heebo)'],
-        futura: ['var(--font-futura)'],
       },
       colors: {
         'brand-blue': '#1D71B8',
