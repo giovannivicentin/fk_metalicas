@@ -1,7 +1,7 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import { AiFillFacebook, AiFillInstagram, AiFillMail } from 'react-icons/ai';
-import { RiWhatsappFill } from 'react-icons/ri';
+import Image from 'next/image'
+import Link from 'next/link'
+import { AiFillFacebook, AiFillInstagram, AiFillMail } from 'react-icons/ai'
+import { RiWhatsappFill } from 'react-icons/ri'
 
 export default function Home() {
   return (
@@ -60,5 +60,5 @@ export default function Home() {
         </div>
       </div>
     </main>
-  );
+  )
 }
