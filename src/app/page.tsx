@@ -5,6 +5,6 @@ import { RiWhatsappFill } from 'react-icons/ri'
 
 export default function Home() {
   return (
-  <h1>haha</h1>
+    <h1>hello world</h1>
   )
 }
