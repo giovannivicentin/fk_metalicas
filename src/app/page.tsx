@@ -1,3 +1,3 @@
 export default function Home() {
-  return <main className="min-h-screen"></main>;
+  return <h1>hello world</h1>
 }
