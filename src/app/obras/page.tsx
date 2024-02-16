@@ -1,5 +1,5 @@
 function ConstructionPage() {
-  return <div>ConstructionPage</div>;
+  return <div>ConstructionPage</div>
 }
 
-export default ConstructionPage;
+export default ConstructionPage
