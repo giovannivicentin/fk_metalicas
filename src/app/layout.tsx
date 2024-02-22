@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Heebo } from 'next/font/google'
 import './globals.css'
+import { Navbar } from '@/components/navbar'
 
 const heebo = Heebo({
   weight: ['400', '700'],
@@ -20,7 +21,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body className={heebo.className}>{children}</body>
+      <body className={heebo.className}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   )
 }
