@@ -5,7 +5,7 @@ import './globals.css';
 const montserrat = Montserrat({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Frank Metálicas',
+  title: 'Frank Construções Metálicas',
   description: 'Frank Metálicas | Faça seu projeto virar aço!',
 };
 
