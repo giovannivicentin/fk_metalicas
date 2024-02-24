@@ -9,18 +9,26 @@ export function Navbar() {
 
       <div className="flex gap-5 items-center">
         <Link href="/services" className="">
-          <p className="hover:underline underline-offset-2">Serviço</p>
+          <p className="text-lg hover:underline hover:text-brand-orange underline-offset-2">
+            Serviço
+          </p>
         </Link>
         <Link href="/projects" className="">
-          <p className="hover:underline underline-offset-2">Obras</p>
+          <p className="text-lg hover:underline hover:text-brand-orange underline-offset-2">
+            Obras
+          </p>
         </Link>
         <Link href="/about" className="">
-          <p className="hover:underline underline-offset-2">Sobre</p>
+          <p className="text-lg hover:underline hover:text-brand-orange underline-offset-2">
+            Sobre
+          </p>
         </Link>
         <Link href="/contact" className="">
-          <p className="hover:underline underline-offset-2">Contato</p>
+          <p className="text-lg hover:underline hover:text-brand-orange underline-offset-2">
+            Contato
+          </p>
         </Link>
-        <Button className="bg-brand-orange hover:bg-orange-600">
+        <Button className="text-md bg-brand-orange hover:bg-orange-600">
           Faça sua Proposta
         </Button>
       </div>
