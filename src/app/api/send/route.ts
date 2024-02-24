@@ -1,8 +1,6 @@
 import { Resend } from 'resend'
 
-// const resend = new Resend(process.env.RESEND_API_KEY)
-
-const resend = new Resend('api_key_here')
+const resend = new Resend(process.env.RESEND_API_KEY)
 
 export async function POST(request: Request) {
   const res = await request.json()
@@ -23,13 +21,18 @@ export async function POST(request: Request) {
     console.log('Response:', data)
 
     if (data && data.data && data.data.id) {
-      return Response.json({ success: true })
+      return new Response(JSON.stringify({ success: true, id: data.data.id }), {
+        headers: { 'Content-Type': 'application/json' },
+      })
     } else {
-      console.error('Email sending error: No id in the response')
-      return Response.json({ success: false })
+      return new Response(JSON.stringify({ success: false }), {
+        headers: { 'Content-Type': 'application/json' },
+      })
     }
   } catch (error) {
-    console.error('Email sending error:', error)
-    return Response.json({ success: false })
+    console.error('Error sending email:', error)
+    return new Response(JSON.stringify({ success: false }), {
+      headers: { 'Content-Type': 'application/json' },
+    })
   }
 }
