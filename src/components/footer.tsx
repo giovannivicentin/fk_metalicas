@@ -27,10 +27,6 @@ const formSchema = z.object({
   message: z.string().nonempty(),
 })
 
-const handleSubmit = (data: z.infer<typeof formSchema>) => {
-  console.log(data)
-}
-
 export function Footer() {
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -41,6 +37,35 @@ export function Footer() {
       message: '',
     },
   })
+
+  const handleSubmit = async (data: z.infer<typeof formSchema>) => {
+    try {
+      const response = await fetch('/api/send', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      })
+
+      if (!response.ok) {
+        throw new Error('Network response was not ok')
+      }
+
+      const responseData = await response.json()
+      console.log(responseData)
+      form.reset({
+        name: '',
+        email: '',
+        subject: '',
+        message: '',
+      })
+      alert('Email was sent successfully')
+    } catch (error) {
+      console.error('Error:', error)
+      alert('Email was not sent')
+    }
+  }
   return (
     <div className="bg-neutral-800">
       <div className="xs:flex-col sm:flex justify-between px-12 py-4">
@@ -143,7 +168,7 @@ export function Footer() {
             Nos envie um e-mail
           </p>
           <Form {...form}>
-            <form action="post" onSubmit={form.handleSubmit(handleSubmit)}>
+            <form onSubmit={form.handleSubmit(handleSubmit)}>
               <FormField
                 control={form.control}
                 name="name"
