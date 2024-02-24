@@ -43,8 +43,8 @@ export function Footer() {
   })
   return (
     <div className="bg-neutral-800">
-      <div className="flex justify-between px-12 py-4">
-        <div className="w-1/3 p-4 flex flex-col justify-between">
+      <div className="xs:flex-col sm:flex justify-between px-12 py-4">
+        <div className="w-full sm:w-1/3 p-4 flex flex-col justify-between">
           <p className="text-neutral-200 text-center mb-2 text-xl">
             Nossa Empresa
           </p>
@@ -63,8 +63,8 @@ export function Footer() {
             Av. Marginal Rio Jundiaí 1500, Várzea Paulista, SP, 13221-800
           </Link>
         </div>
-        <div className="w-1/3 p-4 flex flex-col justify-between items-center">
-          <p className="text-neutral-200 text-start mb-2 text-xl">
+        <div className="w-full sm:w-1/3 p-4 flex flex-col justify-between items-center gap-4 sm:gap-0">
+          <p className="text-neutral-200 text-start text-xl">
             Conecte-se conosco
           </p>
           <div className="flex gap-4">
@@ -136,7 +136,7 @@ export function Footer() {
             </Button>
           </Link>
         </div>
-        <div className="w-1/3 p-4 flex flex-col justify-between">
+        <div className="w-full sm:w-1/3 p-4 flex flex-col justify-between">
           <p className="text-neutral-200 text-center mb-2 text-xl">
             Nos envie um e-mail
           </p>
