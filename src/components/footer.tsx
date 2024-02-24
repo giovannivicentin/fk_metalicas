@@ -64,7 +64,7 @@ export function Footer() {
           </Link>
         </div>
         <div className="w-full sm:w-1/3 p-4 flex flex-col justify-between items-center gap-4 sm:gap-0">
-          <p className="text-neutral-200 text-start text-xl">
+          <p className="text-neutral-200 text-start mb-2 text-xl">
             Conecte-se conosco
           </p>
           <div className="flex gap-4">
