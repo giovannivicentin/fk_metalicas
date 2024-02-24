@@ -20,7 +20,7 @@ export async function POST(request: Request) {
 
     console.log('Response:', data)
 
-    if (data && data.id) {
+    if (data && data.data && data.data.id) {
       return Response.json({ success: true })
     } else {
       console.error('Email sending error: No id in the response')
