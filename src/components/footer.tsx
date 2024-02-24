@@ -49,18 +49,20 @@ export function Footer() {
             Nossa Empresa
           </p>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d234649.4083385789!2d-46.903516!3d-23.228636!3m2!1i1024!2i768!4f13.1!4m8!3e0!4m0!4m5!1s0x94cf2070efc55c2f%3A0xd394910ba4d351c4!2sFrank%20Constru%C3%A7%C3%B5es%20Met%C3%A1licas%20Ltda.%2C%20R.%20Paschoal%20Gimene%2C%20140%20-%20Aglomera%C3%A7%C3%A3o%20Urbana%20de%20Jundia%C3%AD%2C%20V%C3%A1rzea%20Paulista%20-%20SP%2C%2013225-325!3m2!1d-23.2453967!2d-46.83136!5e0!3m2!1spt-BR!2sbr!4v1708703593352!5m2!1spt-BR!2sbr"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3665.936124870112!2d-46.834245960055014!3d-23.245411342672874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf2070efc55c2f%3A0xd394910ba4d351c4!2sFrank%20Constru%C3%A7%C3%B5es%20Met%C3%A1licas%20Ltda.!5e0!3m2!1spt-BR!2sbr!4v1708803740417!5m2!1spt-BR!2sbr"
             loading="lazy"
             className="rounded-xl border-2 border-brand-orange hover:border-brand-blue w-full h-64"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
+
           <Link
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground text-sm hover:text-neutral-200"
             href="https://www.google.com.br/maps/dir//frank+metalicas/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x94cf2070efc55c2f:0xd394910ba4d351c4?sa=X&ved=2ahUKEwjlpYWx7MGEAxWdA7kGHdfvDOwQ9Rd6BAg_EAA"
           >
-            Av. Marginal Rio Jundiaí 1500, Várzea Paulista, SP, 13221-800
+            R. Paschoal Gimene, 140 - Aglomeração Urbana de Jundiaí, Várzea
+            Paulista - SP, 13225-325
           </Link>
         </div>
         <div className="w-full sm:w-1/3 p-4 flex flex-col justify-between items-center gap-4 sm:gap-0">
