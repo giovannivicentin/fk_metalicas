@@ -6,9 +6,6 @@ export async function POST(request: Request) {
   const res = await request.json()
   const { name, email, subject, message } = res
 
-  console.log('Request:', request)
-  console.log('email', email)
-
   try {
     const data = await resend.emails.send({
       from: 'onboarding@resend.dev',
@@ -18,12 +15,15 @@ export async function POST(request: Request) {
       html: `<p>Email de: ${name} (${email})</p><p>${message}</p>`,
     })
 
-    console.log('Response:', data)
+    const hasId = data && data.data && data.data.id
 
-    if (data && data.data && data.data.id) {
-      return new Response(JSON.stringify({ success: true, id: data.data.id }), {
-        headers: { 'Content-Type': 'application/json' },
-      })
+    if (hasId) {
+      return new Response(
+        JSON.stringify({ success: true, id: data.data?.id }),
+        {
+          headers: { 'Content-Type': 'application/json' },
+        },
+      )
     } else {
       return new Response(JSON.stringify({ success: false }), {
         headers: { 'Content-Type': 'application/json' },
