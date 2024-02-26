@@ -67,7 +67,7 @@ export function Footer() {
     }
   }
   return (
-    <div className="bg-neutral-800">
+    <footer className="bg-neutral-800">
       <div className="xs:flex-col sm:flex justify-between px-12 py-4">
         <div className="w-full sm:w-1/3 p-4 flex flex-col justify-between">
           <p className="text-neutral-200 text-center mb-2 text-xl">
@@ -258,6 +258,6 @@ export function Footer() {
       <p className="text-muted-foreground text-center p-1 bg-neutral-600">
         © Todos os direitos reservados Frank Construções Metálicas.
       </p>
-    </div>
+    </footer>
   )
 }

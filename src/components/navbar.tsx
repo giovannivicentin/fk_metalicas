@@ -4,7 +4,7 @@ import { Button } from './ui/button'
 
 export function Navbar() {
   return (
-    <div className="flex justify-between items-center px-10 py-2 leading-loose">
+    <nav className="flex justify-between items-center px-10 py-2 leading-loose">
       <Image src="/logo.png" alt="Logo" width={127} height={63} />
 
       <div className="flex gap-5 items-center">
@@ -32,6 +32,6 @@ export function Navbar() {
           Faça sua Proposta
         </Button>
       </div>
-    </div>
+    </nav>
   )
 }
