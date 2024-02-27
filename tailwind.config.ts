@@ -22,7 +22,8 @@ const config = {
         apresentation: "url('/construction.jpg')",
       },
       fontFamily: {
-        heebo: ['var(--font-heebo)'],
+        montserrat: ['var(--font-montserrat)', 'sans-serif'],
+        heebo: ['var(--font-heebo)', 'sans-serif'],
       },
       colors: {
         'brand-blue': '#1D71B8',
