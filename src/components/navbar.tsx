@@ -4,26 +4,26 @@ import { Button } from './ui/button'
 
 export function Navbar() {
   return (
-    <nav className="flex justify-between items-center px-10 py-2 leading-loose">
-      <Image src="/logo.png" alt="Logo" width={127} height={63} />
+    <nav className="flex justify-between items-center px-10 py-2 leading-loose border-b shadow">
+      <Image src="/logo.svg" alt="Logo" width={120} height={60} />
 
       <div className="flex gap-5 items-center">
-        <Link href="/services" className="">
+        <Link href="#services">
           <p className="text-lg hover:underline hover:text-brand-orange underline-offset-2">
             Serviço
           </p>
         </Link>
-        <Link href="/projects" className="">
+        <Link href="/projetos">
           <p className="text-lg hover:underline hover:text-brand-orange underline-offset-2">
             Obras
           </p>
         </Link>
-        <Link href="/about" className="">
+        <Link href="#">
           <p className="text-lg hover:underline hover:text-brand-orange underline-offset-2">
             Sobre
           </p>
         </Link>
-        <Link href="/contact" className="">
+        <Link href="#footer">
           <p className="text-lg hover:underline hover:text-brand-orange underline-offset-2">
             Contato
           </p>
