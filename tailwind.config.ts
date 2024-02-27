@@ -18,6 +18,9 @@ const config = {
       },
     },
     extend: {
+      backgroundImage: {
+        apresentation: "url('/construction.jpg')",
+      },
       fontFamily: {
         heebo: ['var(--font-heebo)'],
       },
