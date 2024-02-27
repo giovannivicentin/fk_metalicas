@@ -68,7 +68,7 @@ export function Footer() {
   }
   return (
     <footer className="bg-neutral-800">
-      <div className="xs:flex-col sm:flex justify-between px-12 py-4">
+      <div className="xs:flex-col sm:flex justify-between px-1 sm:px-12 py-4">
         <div className="w-full sm:w-1/3 p-4 flex flex-col justify-between">
           <p className="text-neutral-200 text-center mb-2 text-xl">
             Nossa Empresa
@@ -83,7 +83,7 @@ export function Footer() {
           <Link
             target="_blank"
             rel="noopener noreferrer"
-            className="text-muted-foreground text-sm hover:text-neutral-200"
+            className="mt-1 text-muted-foreground text-sm hover:text-neutral-200"
             href="https://www.google.com.br/maps/dir//frank+metalicas/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x94cf2070efc55c2f:0xd394910ba4d351c4?sa=X&ved=2ahUKEwjlpYWx7MGEAxWdA7kGHdfvDOwQ9Rd6BAg_EAA"
           >
             R. Paschoal Gimene, 140 - Aglomeração Urbana de Jundiaí, Várzea

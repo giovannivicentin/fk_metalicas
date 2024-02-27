@@ -4,7 +4,7 @@ import { Button } from './ui/button'
 
 export function Navbar() {
   return (
-    <nav className="flex justify-between items-center px-10 py-2 leading-loose border-b shadow-2xl bg-background-color">
+    <nav className="flex justify-between items-center px-10 py-2 leading-loose border-b bg-background-color">
       <Image src="/logo.svg" alt="Logo" width={120} height={60} />
 
       <div className="flex gap-5 items-center">
