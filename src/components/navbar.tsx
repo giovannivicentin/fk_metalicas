@@ -4,7 +4,7 @@ import { Button } from './ui/button'
 
 export function Navbar() {
   return (
-    <nav className="flex justify-between items-center px-10 py-2 leading-loose border-b shadow">
+    <nav className="flex justify-between items-center px-10 py-2 leading-loose border-b shadow-2xl bg-background-color">
       <Image src="/logo.svg" alt="Logo" width={120} height={60} />
 
       <div className="flex gap-5 items-center">
@@ -28,7 +28,7 @@ export function Navbar() {
             Contato
           </p>
         </Link>
-        <Button className="text-md bg-brand-orange hover:bg-orange-600">
+        <Button className="text-md bg-orange-600 hover:bg-brand-orange rounded-xl h-10">
           Faça sua Proposta
         </Button>
       </div>
