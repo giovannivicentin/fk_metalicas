@@ -18,8 +18,11 @@ const config = {
       },
     },
     extend: {
+      boxShadow: {
+        ourServices: '5px 5px 20px #8b8b8b, -5px -5px 20px #ffffff',
+      },
       backgroundImage: {
-        apresentation: "url('/construction.jpg')",
+        apresentation: "url('/apresentation.svg')",
       },
       fontFamily: {
         montserrat: ['var(--font-montserrat)', 'sans-serif'],
@@ -28,7 +31,7 @@ const config = {
       colors: {
         'brand-blue': '#1D71B8',
         'brand-orange': '#F39200',
-
+        'background-color': '#fffbfa',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
