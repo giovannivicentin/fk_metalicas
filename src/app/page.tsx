@@ -12,8 +12,8 @@ export default function Home() {
           Faça seu projeto virar aço!
         </h1>
         <p className="text-white mb-8 sm:mb-12 text-lg sm:text-xl">
-          No mercado desde 2000, a Frank Construções Metálicas é especializada
-          em construções metálicas.
+          Realizando projetos com excelência desde 2000, a Frank Construções
+          Metálicas destaca-se como referência em qualidade no mercado.
         </p>
         <Link href="/projetos">
           <Button className="w-5/6 sm:w-1/5 h-12 text-sm sm:text-md text-white font-extrabold rounded-xl bg-orange-600 hover:bg-brand-orange">
