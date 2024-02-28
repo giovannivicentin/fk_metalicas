@@ -31,7 +31,7 @@ export default function Home() {
         </p>
         {/* I think if will be just divs, add a animation 3d hover or some animation */}
         <div className="flex flex-col sm:flex-row gap-3 mt-12">
-          <div className="p-4 w-full sm:w-1/3 rounded-xl bg-gradient-to-br from-neutral-50 to-neutral-100 hover:shadow-ourServices transition duration-500 border">
+          <div className="p-4 w-full sm:w-1/3 rounded-xl hover:bg-gradient-to-br from-neutral-50 to-neutral-100 hover:shadow-ourServices transition duration-500 border">
             <GoHome className="h-6 w-6 mb-2" />
             <h3 className="font-bold text-lg">Construção</h3>
             <p className="text-orange-800 text-md leading-relaxed mt-1">
@@ -40,7 +40,7 @@ export default function Home() {
               garantir durabilidade e sustentabilidade.
             </p>
           </div>
-          <div className="p-4 w-full sm:w-1/3 rounded-xl bg-gradient-to-br from-neutral-50 to-neutral-100 hover:shadow-ourServices transition duration-500 border">
+          <div className="p-4 w-full sm:w-1/3 rounded-xl hover:bg-gradient-to-br from-neutral-50 to-neutral-100 hover:shadow-ourServices transition duration-500 border">
             <IoSettingsOutline className="h-6 w-6 mb-2" />
             <h3 className="font-bold text-lg">Fabricação customizada</h3>
             <p className="text-orange-800 text-md leading-relaxed mt-1">
@@ -50,7 +50,7 @@ export default function Home() {
               concretização da sua visão.
             </p>
           </div>
-          <div className="p-4 w-full sm:w-1/3 rounded-xl bg-gradient-to-br from-neutral-50 to-neutral-100 hover:shadow-ourServices transition duration-500 border">
+          <div className="p-4 w-full sm:w-1/3 rounded-xl hover:bg-gradient-to-br from-neutral-50 to-neutral-100 hover:shadow-ourServices transition duration-500 border">
             <PiSuitcaseSimple className="h-6 w-6 mb-2" />
             <h3 className="font-bold text-lg">Gestão de Projetos</h3>
             <p className="text-orange-800 text-md leading-relaxed mt-1">
