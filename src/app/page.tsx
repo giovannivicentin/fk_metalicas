@@ -16,7 +16,7 @@ export default function Home() {
           Metálicas destaca-se como referência em qualidade no mercado.
         </p>
         <Link href="/projetos">
-          <Button className="w-5/6 sm:w-1/5 h-12 text-sm sm:text-md text-white font-extrabold rounded-xl bg-orange-600 hover:bg-brand-orange">
+          <Button className="w-5/6 sm:w-1/4 h-12 text-sm sm:text-lg text-white rounded-xl bg-orange-600 hover:bg-brand-orange">
             Projetos Realizados
           </Button>
         </Link>
@@ -62,8 +62,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="w-5/6 sm:w-3/4">
-        <h2>Recent Projects</h2>
+      <div className="w-5/6 sm:w-3/4 mt-12">
+        <h2 className="font-extrabold text-2xl">Obras Recentes</h2>
         <div>
           {/* with a carrosel of shadcui start putting images but after connect this with the other page to show recent projects */}
         </div>
