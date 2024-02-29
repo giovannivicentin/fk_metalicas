@@ -79,7 +79,7 @@ export function Navbar() {
         <div className="flex w-full items-center justify-end">
           <div onClick={handleNav} className="cursor-pointer">
             <AiOutlineClose
-              className=" text-black hover:text-brand-orange"
+              className=" text-neutral-900 hover:text-brand-orange"
               size={25}
             />
           </div>
@@ -87,22 +87,22 @@ export function Navbar() {
         <div className="flex-col py-4">
           <ul>
             <Link href="/servicos">
-              <li className="py-4 cursor-pointer uppercase text-black hover:text-brand-orange">
+              <li className="py-4 cursor-pointer uppercase text-neutral-900 hover:text-brand-orange">
                 Serviços
               </li>
             </Link>
             <Link href="/obras">
-              <li className="py-4 cursor-pointer uppercase text-black hover:text-brand-orange">
+              <li className="py-4 cursor-pointer uppercase text-neutral-900 hover:text-brand-orange">
                 Casos de Sucesso
               </li>
             </Link>
             <Link href="/sobre">
-              <li className="py-4 cursor-pointer uppercase text-black hover:text-brand-orange">
+              <li className="py-4 cursor-pointer uppercase text-neutral-900 hover:text-brand-orange">
                 Sobre
               </li>
             </Link>
             <Link href="/contato">
-              <li className="py-4 cursor-pointer uppercase text-black hover:text-brand-orange">
+              <li className="py-4 cursor-pointer uppercase text-neutral-900 hover:text-brand-orange">
                 Contato
               </li>
             </Link>
@@ -115,7 +115,7 @@ export function Navbar() {
             rel="noopener noreferrer"
           >
             <AiFillFacebook
-              className="text-black hover:text-brand-orange transition-transform transform hover:scale-110"
+              className="text-neutral-900 hover:text-brand-orange transition-transform transform hover:scale-110"
               size={30}
             />
           </Link>
@@ -125,13 +125,13 @@ export function Navbar() {
             rel="noopener noreferrer"
           >
             <AiFillInstagram
-              className="text-black hover:text-brand-orange transition-transform transform hover:scale-110"
+              className="text-neutral-900 hover:text-brand-orange transition-transform transform hover:scale-110"
               size={30}
             />
           </Link>
           <Link href="" target="_blank" rel="noopener noreferrer">
             <AiFillMail
-              className="text-black hover:text-brand-orange transition-transform transform hover:scale-110"
+              className="text-neutral-900 hover:text-brand-orange transition-transform transform hover:scale-110"
               size={30}
             />
           </Link>
@@ -141,7 +141,7 @@ export function Navbar() {
             rel="noopener noreferrer"
           >
             <RiWhatsappFill
-              className="text-black hover:text-brand-orange transition-transform transform hover:scale-110"
+              className="text-neutral-900 hover:text-brand-orange transition-transform transform hover:scale-110"
               size={30}
             />
           </Link>
