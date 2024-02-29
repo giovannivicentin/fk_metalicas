@@ -29,7 +29,7 @@ export function Navbar() {
           </p>
         </Link>
         <Button className="text-md bg-orange-600 hover:bg-brand-orange rounded-xl h-10">
-          Faça sua Proposta
+          Solicitar Orçamento
         </Button>
       </div>
     </nav>

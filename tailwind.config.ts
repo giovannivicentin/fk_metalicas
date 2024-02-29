@@ -32,6 +32,7 @@ const config = {
         'brand-blue': '#1D71B8',
         'brand-orange': '#F39200',
         'background-color': '#fffbfa',
+        'OurServices-background': '#cacaca',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
