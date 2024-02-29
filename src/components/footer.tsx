@@ -94,7 +94,7 @@ export function Footer() {
           <p className="text-neutral-200 text-center mb-2 text-xl">
             Conecte-se conosco
           </p>
-          <div className="flex gap-4">
+          <div className="flex gap-7 sm:gap-5">
             <Link
               href="https://www.facebook.com/frankmetalicas"
               target="_blank"
@@ -138,6 +138,7 @@ export function Footer() {
           </div>
 
           <Image
+            className="hidden sm:flex"
             src="/qrcode.png"
             alt="QR Code to rate the company in Google"
             width={200}
@@ -151,7 +152,7 @@ export function Footer() {
           >
             <Button
               variant="default"
-              className="flex items-center text-md gap-1 text-neutral-200 hover:bg-brand-orange hover:text-neutral-900"
+              className="flex items-center text-md gap-1 text-neutral-200 hover:bg-brand-orange hover:text-neutral-900 mt-2 sm:mt-0"
             >
               Avalie-nos no
               <Image
