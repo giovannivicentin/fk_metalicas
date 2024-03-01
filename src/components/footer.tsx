@@ -186,7 +186,10 @@ export function Footer() {
             </Form>
           </div>
         </div>
-        <div className="w-full sm:w-1/4 p-4 flex flex-col justify-between items-center sm:items-end gap-4 sm:gap-0">
+        <div
+          className="w-full sm:w-1/4 p-4 flex flex-col justify-between items-center sm:items-end gap-4 sm:gap-0"
+          id="contato"
+        >
           <p className="text-muted text-center sm:text-end font-bold text-2xl mb-2">
             Fale conosco
           </p>
@@ -207,10 +210,9 @@ export function Footer() {
               href="mailto:frank@frankmetalicas.com"
               target="_blank"
               rel="noopener noreferrer"
+              className="text-muted hover:text-brand-orange"
             >
-              <p className="text-muted hover:text-brand-orange">
-                frank@frankmetalicas.com
-              </p>
+              frank@frankmetalicas.com
             </Link>
           </p>
           <div className="flex gap-4 sm:gap-3 mt-2">
