@@ -18,6 +18,15 @@ export function Navbar() {
   function handleNav() {
     setMenuOpen(!menuOpen)
   }
+
+  const handleClick = (id: string) => (e: React.MouseEvent) => {
+    e.preventDefault()
+    const element = document.getElementById(id)
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
+
   return (
     <nav className="fixed z-50 w-full px-2 sm:px-3 py-3 sm:py-2 shadow-md bg-background-color">
       <div className="flex justify-between items-center h-full w-full px-4 2xl:px-16">
@@ -35,7 +44,7 @@ export function Navbar() {
         </div>
         <div className="hidden sm:flex">
           <ul className="hidden sm:flex items-center gap-10">
-            <Link href="/servicos">
+            <Link href="/#servicos" onClick={handleClick('servicos')}>
               <li className="text-xl hover:text-brand-orange hover:border-b-brand-orange border-b border-b-background-color">
                 Serviços
               </li>
@@ -50,12 +59,16 @@ export function Navbar() {
                 Sobre
               </li>
             </Link>
-            <Link href="/contato">
+            <Link href="/#contato" onClick={handleClick('contato')}>
               <li className="text-xl hover:text-brand-orange hover:border-b-brand-orange border-b border-b-background-color">
                 Contato
               </li>
             </Link>
-            <Link href="https://api.whatsapp.com/send?phone=+5511994409000&text=Oi%20Frank!%20Estou%20interessado%20em%20realizar%20um%20or%C3%A7amento%20com%20voc%C3%AA.&source=&data=">
+            <Link
+              href="https://api.whatsapp.com/send?phone=+5511994409000&text=Oi%20Frank!%20Estou%20interessado%20em%20realizar%20um%20or%C3%A7amento%20com%20voc%C3%AA.&source=&data="
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Button className="px-4 py-6 text-lg text-white rounded-xl bg-orange-600 hover:bg-brand-orange">
                 Solicitar Orçamento
               </Button>
@@ -86,7 +99,7 @@ export function Navbar() {
         </div>
         <div className="flex-col py-4">
           <ul>
-            <Link href="/servicos">
+            <Link href="/#servicos" onClick={handleClick('servicos')}>
               <li className="py-4 cursor-pointer uppercase text-neutral-900 hover:text-brand-orange">
                 Serviços
               </li>
