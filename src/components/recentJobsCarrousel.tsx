@@ -10,7 +10,7 @@ import {
 import Autoplay from 'embla-carousel-autoplay'
 import { CardItem } from './cardItem'
 
-export function EditedCarrousel() {
+export function RecentJobsCarrousel() {
   return (
     <Carousel
       plugins={[
