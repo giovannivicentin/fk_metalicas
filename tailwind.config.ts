@@ -22,7 +22,7 @@ const config = {
         ourServices: '5px 5px 20px #8b8b8b, -5px -5px 20px #ffffff',
       },
       backgroundImage: {
-        apresentation: "url('/apresentation.svg')",
+        apresentation: "url('/apresentation.jpg')",
       },
       fontFamily: {
         montserrat: ['var(--font-montserrat)', 'sans-serif'],
