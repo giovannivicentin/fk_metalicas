@@ -15,7 +15,7 @@ export function MainJobsItem({
   alt,
 }: MainJobsItemProps) {
   return (
-    <Card className="sm:aspect-square aspect-video flex flex-col object-cover overflow-hidden border border-neutral-300 p-4">
+    <Card className="sm:min-w-72 sm:min-h-72 sm:aspect-auto aspect-video flex flex-col object-cover overflow-hidden border border-neutral-300 p-4">
       <Image
         src={src}
         alt={alt}
