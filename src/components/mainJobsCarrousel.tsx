@@ -33,6 +33,8 @@ sed feugiat mi scelerisque placerat.
 Duis fermentum massa quis ante
 egestas, varius consectetur lacus
 molestie. Cras accumsan."
+              src="/ladder.svg"
+              alt="ladder icon"
             />
           </div>
         </CarouselItem>
@@ -45,6 +47,8 @@ sed feugiat mi scelerisque placerat.
 Duis fermentum massa quis ante
 egestas, varius consectetur lacus
 molestie. Cras accumsan."
+              src="/marquee.svg"
+              alt="marquee icon"
             />
           </div>
         </CarouselItem>
@@ -58,6 +62,8 @@ sed feugiat mi scelerisque placerat.
 Duis fermentum massa quis ante
 egestas, varius consectetur lacus
 molestie. Cras accumsan."
+              src="/gate.svg"
+              alt="gate icon"
             />
           </div>
         </CarouselItem>
@@ -71,9 +77,12 @@ sed feugiat mi scelerisque placerat.
 Duis fermentum massa quis ante
 egestas, varius consectetur lacus
 molestie. Cras accumsan."
+              src="/structure.svg"
+              alt="structure icon"
             />
           </div>
         </CarouselItem>
+
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
             <MainJobsItem
@@ -84,6 +93,8 @@ sed feugiat mi scelerisque placerat.
 Duis fermentum massa quis ante
 egestas, varius consectetur lacus
 molestie. Cras accumsan."
+              src="/more.svg"
+              alt="more icon"
             />
           </div>
         </CarouselItem>
