@@ -18,7 +18,7 @@ export function CardItem({ src, alt, title, description }: CardItemProps) {
           alt={alt}
           width={160}
           height={90}
-          className="w-full rounded-se-lg"
+          className="w-full rounded-se-lg rounded-sw-lg max-h-40 object-cover"
         />
         <CardTitle className="my-2 px-4">{title}</CardTitle>
         <CardDescription className="px-4 mb-2">{description}</CardDescription>

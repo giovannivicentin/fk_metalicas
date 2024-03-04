@@ -27,60 +27,90 @@ export function RecentJobsCarrousel() {
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
             <CardItem
-              src="/construction2.jpg"
-              alt="aa"
-              title="la ele"
-              description="la ele"
+              src="/construction_1.jpg"
+              alt="Imagem de um trabalho feito no ibis hotel"
+              title="Estrutura Ibis"
+              description="lorem ipsum dolor sit amet, consectetur adipiscing elit."
             />
           </div>
         </CarouselItem>
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
             <CardItem
-              src="/construction2.jpg"
+              src="/construction_2.jpg"
               alt="aa"
-              title="la ele"
-              description="la ele"
+              title="lorem ipsum dolor"
+              description="lorem ipsum dolor sit amet, consectetur adipiscing elit."
             />
           </div>
         </CarouselItem>
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
             <CardItem
-              src="/construction2.jpg"
+              src="/construction_3.jpg"
               alt="aa"
-              title="la ele"
-              description="la ele"
+              title="lorem ipsum dolor"
+              description="lorem ipsum dolor sit amet, consectetur adipiscing elit."
             />
           </div>
         </CarouselItem>
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
             <CardItem
-              src="/construction2.jpg"
+              src="/construction_4.jpg"
               alt="aa"
-              title="la ele"
-              description="la ele"
+              title="lorem ipsum dolor"
+              description="lorem ipsum dolor sit amet, consectetur adipiscing elit."
             />
           </div>
         </CarouselItem>
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
             <CardItem
-              src="/construction2.jpg"
+              src="/construction_5.jpg"
               alt="aa"
-              title="la ele"
-              description="la ele"
+              title="lorem ipsum dolor"
+              description="lorem ipsum dolor sit amet, consectetur adipiscing elit."
             />
           </div>
         </CarouselItem>
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
             <CardItem
-              src="/construction2.jpg"
+              src="/construction_6.jpg"
               alt="aa"
-              title="la ele"
-              description="la ele"
+              title="lorem ipsum dolor"
+              description="lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            />
+          </div>
+        </CarouselItem>
+        <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+          <div className="p-1">
+            <CardItem
+              src="/construction_7.jpg"
+              alt="aa"
+              title="lorem ipsum dolor"
+              description="lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            />
+          </div>
+        </CarouselItem>
+        <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+          <div className="p-1">
+            <CardItem
+              src="/construction_8.jpg"
+              alt="aa"
+              title="lorem ipsum dolor"
+              description="lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            />
+          </div>
+        </CarouselItem>
+        <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+          <div className="p-1">
+            <CardItem
+              src="/construction_9.jpg"
+              alt="aa"
+              title="lorem ipsum dolor"
+              description="lorem ipsum dolor sit amet, consectetur adipiscing elit."
             />
           </div>
         </CarouselItem>
