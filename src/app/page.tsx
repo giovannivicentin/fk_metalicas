@@ -70,12 +70,6 @@ export default function Home() {
       </div>
       <div className="w-5/6 sm:w-3/4 mt-12">
         <h2 className="font-extrabold text-2xl">Obras Recentes</h2>
-        <p className="text-sm sm:text-md mt-2">
-          Apresentamos uma ampla gama de soluções especializadas para atender às
-          necessidades na área de estruturas metálicas. Combinamos expertise
-          técnica, inovação e habilidade artesanal para garantir resultados
-          excepcionais em cada empreendimento.
-        </p>
         <RecentJobsCarrousel />
       </div>
       <div className="w-5/6 sm:w-3/4 mt-12">

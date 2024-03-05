@@ -21,7 +21,7 @@ export function RecentJobsCarrousel() {
       opts={{
         align: 'center',
       }}
-      className="w-full mt-12"
+      className="w-full mt-4"
     >
       <CarouselContent>
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
