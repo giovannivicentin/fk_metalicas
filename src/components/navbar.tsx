@@ -85,8 +85,8 @@ export function Navbar() {
       <div
         className={
           menuOpen
-            ? 'fixed left-0 top-0 w-[65%] sm:hidden h-screen bg-background-color/40 backdrop-blur-2xl p-10 ease-linear transition-all duration-300'
-            : 'fixed left-[-100%] h-screen top-0 p-10 bg-background-color/40 backdrop-blur-2xl ease-linear transition-all duration-100'
+            ? 'fixed left-0 top-0 w-[65%] sm:hidden h-screen bg-background-color/70 backdrop-blur-2xl p-10 ease-linear transition-all duration-300'
+            : 'fixed left-[-100%] h-screen top-0 p-10 bg-background-color/70 backdrop-blur-2xl ease-linear transition-all duration-300'
         }
       >
         <div className="flex w-full items-center justify-end">
