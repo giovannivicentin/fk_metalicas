@@ -16,8 +16,8 @@ export function CardItem({ src, alt, title, description }: CardItemProps) {
         <Image
           src={src}
           alt={alt}
-          width={160}
-          height={90}
+          width={1760}
+          height={800}
           className="w-full rounded-se-lg rounded-sw-lg max-h-40 object-cover"
         />
         <CardTitle className="my-2 px-4">{title}</CardTitle>
