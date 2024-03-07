@@ -194,38 +194,17 @@ export function Footer() {
             Fale conosco
           </p>
           <p className="text-muted m-0 p-0 text-center sm:text-end flex flex-col gap-4">
-                      <span>Horário de Funcionamento:</span>
-                      <span>Segunda a sexta</span>
-                      <span>7h às 17h</span>
-                      //.... com o resto das coisas
-     
-            <Link
-              href="https://www.facebook.com/frankmetalicas"
-              href="mailto:frank@frankmetalicas.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted hover:text-brand-orange"
-            >
-              <AiFillFacebook
-                className="text-neutral-200 hover:text-brand-orange transition-transform transform hover:scale-110"
-                size={30}
-              />
-              frank@frankmetalicas.com
-            </Link>
-          </p>
-          
-            Horário de Funcionamento:
-            <br />
-            Segunda a sexta
-            <br />
-            7h às 17h
-            <br />
-            <br />
-            (11) 4595-4585
-            <br />
-            (11) 99440-9000
-            <br />
-            <br />
+            <div>
+              <span className="block"> Horário de Funcionamento:</span>
+              <span className="block">Segunda a sexta</span>
+              <span>7h às 17h</span>
+            </div>
+
+            <div>
+              <span className="block">(11) 4595-4585</span>
+              <span>(11) 99440-9000 </span>
+            </div>
+
             <Link
               href="mailto:frank@frankmetalicas.com"
               target="_blank"
