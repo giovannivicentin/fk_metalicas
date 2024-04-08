@@ -17,7 +17,7 @@ export default function Home() {
           Realizando projetos com excelência desde 2000, a Frank Construções
           Metálicas destaca-se como referência em qualidade no mercado.
         </p>
-        <Link href="/projetos">
+        <Link href="/obras">
           <Button className="w-full sm:w-1/4 h-12 text-md sm:text-lg text-white rounded-xl bg-orange-600 hover:bg-brand-orange">
             Estruturas Metálicas
           </Button>
