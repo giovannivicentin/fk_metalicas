@@ -72,11 +72,8 @@ export default function Home() {
         <h2 className="font-extrabold text-2xl">Obras Recentes</h2>
         <RecentJobsCarrousel />
       </div>
-      <div className="w-5/6 sm:w-3/4 mt-12">
-        <h2 className="font-extrabold text-2xl">Avaliações</h2>
-        <p className="text-sm sm:text-md mt-2"></p>
-        {/* connect with google API to show avaliations */}
-      </div>
+
+      {/* connect with google API to show avaliations */}
     </div>
   )
 }
