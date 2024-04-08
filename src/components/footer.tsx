@@ -120,8 +120,8 @@ export function Footer() {
           </Link>
         </div>
       </div>
-      <div className="flex flex-col w-full bg-neutral-950 justify-center items-center">
-        <p className="text-muted-foreground ">
+      <div className="w-full bg-zinc-900">
+        <p className="flex pt-1 text-muted-foreground w-full justify-center items-center">
           © Todos os direitos reservados Frank Construções Metálicas.
         </p>
         <Link
@@ -129,7 +129,7 @@ export function Footer() {
           target="_blank"
           rel="noopener noreferrer
           "
-          className="text-muted-foreground text-xs hover:text-purple-500"
+          className="flex justify-center py-1 items-center text-muted-foreground text-xs hover:text-purple-500 w-full"
         >
           Made by Giovanni Vicentin
         </Link>
