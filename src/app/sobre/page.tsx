@@ -3,7 +3,7 @@ import Image from 'next/image'
 function AboutPage() {
   return (
     <div className="min-h-lvh flex flex-col gap-4 items-center justify-center pb-20 bg-background-color">
-      <div className="animate-slide-in-left">
+      <div className="animate-fade-right animate-once">
         <h1 className="pt-32 text-center sm:leading-relaxed text-2xl sm:text-3xl font-extrabold">
           Uma Trajetória Forjada em Aço
         </h1>
@@ -17,14 +17,14 @@ function AboutPage() {
       </div>
       <div className="flex flex-col-reverse sm:flex-row w-11/12 sm:w-3/4 gap-4 mt-4 sm:mt-20">
         <Image
-          priority
+          loading="lazy"
           src="/template.png"
           alt="template man"
           width="371"
           height="453"
-          className="rounded-xl mt-4 sm:mt-0 animate-slide-in-left"
+          className="rounded-xl mt-4 sm:mt-0 animate-fade-right animate-once delay-500"
         ></Image>
-        <div className="animate-slide-in-right">
+        <div className="animate-fade-left animate-once delay-300">
           <h2 className="text-center leading-relaxed text-2xl font-extrabold">
             O Aço Como Você Nunca Viu
           </h2>
