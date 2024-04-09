@@ -3,25 +3,28 @@ import Image from 'next/image'
 function ConstructionPage() {
   return (
     <div className="min-h-lvh flex flex-col gap-4 items-center justify-center pb-20 bg-background-color">
-      <h1 className="pt-32 text-center sm:leading-relaxed text-2xl sm:text-3xl font-extrabold">
-        Uma Trajetória Forjada em Aço
-      </h1>
-      <p className="text-center leading-relaxed w-11/12 sm:w-3/4 text-sm sm:text-lg">
-        Frank Vicentin, nosso maestro das estruturas metálicas, com sua formação
-        na prestigiosa Universidade Católica de Campinas, orquestra cada projeto
-        com uma harmonia perfeita entre conhecimento técnico e criatividade sem
-        limites. A cada desafio, a equipe da Frank Metálicas se supera,
-        transformando o ordinário em extraordinário.
-      </p>
+      <div className="animate-slide-in-left">
+        <h1 className="pt-32 text-center sm:leading-relaxed text-2xl sm:text-3xl font-extrabold">
+          Uma Trajetória Forjada em Aço
+        </h1>
+        <p className="text-center leading-relaxed w-11/12 sm:w-3/4 text-sm sm:text-lg m-auto mt-4 sm:mt-0">
+          Frank Vicentin, nosso maestro das estruturas metálicas, com sua
+          formação na prestigiosa Universidade Católica de Campinas, orquestra
+          cada projeto com uma harmonia perfeita entre conhecimento técnico e
+          criatividade sem limites. A cada desafio, a equipe da Frank Metálicas
+          se supera, transformando o ordinário em extraordinário.
+        </p>
+      </div>
       <div className="flex flex-col-reverse sm:flex-row w-11/12 sm:w-3/4 gap-4 mt-4 sm:mt-20">
         <Image
+          priority
           src="/template.png"
           alt="template man"
           width="371"
           height="453"
-          className="rounded-xl mt-4 sm:mt-0"
+          className="rounded-xl mt-4 sm:mt-0 animate-slide-in-left"
         ></Image>
-        <div>
+        <div className="animate-slide-in-right">
           <h2 className="text-center leading-relaxed text-2xl font-extrabold">
             O Aço Como Você Nunca Viu
           </h2>
