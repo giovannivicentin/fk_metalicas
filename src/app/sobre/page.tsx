@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-function ConstructionPage() {
+function AboutPage() {
   return (
     <div className="min-h-lvh flex flex-col gap-4 items-center justify-center pb-20 bg-background-color">
       <div className="animate-slide-in-left">
@@ -47,4 +47,4 @@ function ConstructionPage() {
   )
 }
 
-export default ConstructionPage
+export default AboutPage

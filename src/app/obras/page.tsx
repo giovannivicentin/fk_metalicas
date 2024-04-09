@@ -1,4 +1,4 @@
-function AboutPage() {
+function ConstructionPage() {
   return (
     <div className="min-h-lvh">
       <h1>Projetos Realizados</h1>
@@ -16,4 +16,4 @@ function AboutPage() {
   )
 }
 
-export default AboutPage
+export default ConstructionPage
