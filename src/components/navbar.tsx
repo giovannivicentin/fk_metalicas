@@ -44,7 +44,7 @@ export function Navbar() {
         </div>
         <div className="hidden sm:flex">
           <ul className="hidden sm:flex items-center gap-10">
-            <Link href="/#servicos" onClick={handleClick('servicos')}>
+            <Link href="/">
               <li className="text-xl hover:text-brand-orange hover:border-b-brand-orange border-b border-b-background-color">
                 Serviços
               </li>

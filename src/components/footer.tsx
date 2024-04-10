@@ -129,7 +129,7 @@ export function Footer() {
           target="_blank"
           rel="noopener noreferrer
           "
-          className="flex justify-center py-1 items-center text-muted-foreground text-xs hover:text-purple-500 w-full"
+          className="flex justify-center pb-1 items-center text-muted-foreground text-sm hover:text-purple-500 w-full"
         >
           Made by Giovanni Vicentin
         </Link>
