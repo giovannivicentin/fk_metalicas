@@ -8,7 +8,7 @@ import {
   CarouselPrevious,
 } from '@/components/ui/carousel'
 import Autoplay from 'embla-carousel-autoplay'
-import { CardItem } from './cardItem'
+import { RecentJobsItem } from './recentJobsItem'
 
 export function RecentJobsCarrousel() {
   return (
@@ -26,7 +26,7 @@ export function RecentJobsCarrousel() {
       <CarouselContent>
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
-            <CardItem
+            <RecentJobsItem
               src="/recent_jobs_1.png"
               alt="Imagem de um trabalho feito no ibis hotel"
               title="Estrutura Ibis"
@@ -36,7 +36,7 @@ export function RecentJobsCarrousel() {
         </CarouselItem>
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
-            <CardItem
+            <RecentJobsItem
               src="/recent_jobs_2.png"
               alt="aa"
               title="lorem ipsum dolor"
@@ -46,7 +46,7 @@ export function RecentJobsCarrousel() {
         </CarouselItem>
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
-            <CardItem
+            <RecentJobsItem
               src="/recent_jobs_3.png"
               alt="aa"
               title="lorem ipsum dolor"
@@ -56,7 +56,7 @@ export function RecentJobsCarrousel() {
         </CarouselItem>
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
-            <CardItem
+            <RecentJobsItem
               src="/recent_jobs_4.png"
               alt="aa"
               title="lorem ipsum dolor"
@@ -66,7 +66,7 @@ export function RecentJobsCarrousel() {
         </CarouselItem>
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
-            <CardItem
+            <RecentJobsItem
               src="/recent_jobs_5.png"
               alt="aa"
               title="lorem ipsum dolor"
@@ -76,7 +76,7 @@ export function RecentJobsCarrousel() {
         </CarouselItem>
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
-            <CardItem
+            <RecentJobsItem
               src="/recent_jobs_6.png"
               alt="aa"
               title="lorem ipsum dolor"
@@ -86,7 +86,7 @@ export function RecentJobsCarrousel() {
         </CarouselItem>
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
-            <CardItem
+            <RecentJobsItem
               src="/recent_jobs_7.png"
               alt="aa"
               title="lorem ipsum dolor"
@@ -96,7 +96,7 @@ export function RecentJobsCarrousel() {
         </CarouselItem>
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
-            <CardItem
+            <RecentJobsItem
               src="/recent_jobs_8.png"
               alt="aa"
               title="lorem ipsum dolor"
@@ -106,7 +106,7 @@ export function RecentJobsCarrousel() {
         </CarouselItem>
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
-            <CardItem
+            <RecentJobsItem
               src="/recent_jobs_9.png"
               alt="aa"
               title="lorem ipsum dolor"
@@ -116,7 +116,7 @@ export function RecentJobsCarrousel() {
         </CarouselItem>
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
-            <CardItem
+            <RecentJobsItem
               src="/recent_jobs_10.png"
               alt="aa"
               title="lorem ipsum dolor"
@@ -126,7 +126,7 @@ export function RecentJobsCarrousel() {
         </CarouselItem>
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
-            <CardItem
+            <RecentJobsItem
               src="/recent_jobs_11.png"
               alt="aa"
               title="lorem ipsum dolor"
@@ -136,7 +136,7 @@ export function RecentJobsCarrousel() {
         </CarouselItem>
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
-            <CardItem
+            <RecentJobsItem
               src="/recent_jobs_12.png"
               alt="aa"
               title="lorem ipsum dolor"
@@ -146,7 +146,7 @@ export function RecentJobsCarrousel() {
         </CarouselItem>
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
-            <CardItem
+            <RecentJobsItem
               src="/recent_jobs_13.png"
               alt="aa"
               title="lorem ipsum dolor"
@@ -156,7 +156,7 @@ export function RecentJobsCarrousel() {
         </CarouselItem>
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
-            <CardItem
+            <RecentJobsItem
               src="/recent_jobs_14.png"
               alt="aa"
               title="lorem ipsum dolor"
@@ -166,7 +166,7 @@ export function RecentJobsCarrousel() {
         </CarouselItem>
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
-            <CardItem
+            <RecentJobsItem
               src="/recent_jobs_15.png"
               alt="aa"
               title="lorem ipsum dolor"
