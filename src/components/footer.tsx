@@ -51,10 +51,20 @@ export function Footer() {
               <span>7h às 17h</span>
             </p>
 
-            <p>
-              <span className="block">(11) 4595-4585</span>
-              <span>(11) 99440-9000 </span>
-            </p>
+            <div>
+              <a
+                href="tel:+551145954585"
+                className="block hover:text-brand-orange focus:text-brand-orange"
+              >
+                (11) 4595-4585
+              </a>
+              <a
+                href="tel:+5511994409000"
+                className="hover:text-brand-orange focus:text-brand-orange"
+              >
+                (11) 99440-9000{' '}
+              </a>
+            </div>
 
             <Link
               href="mailto:frank@frankmetalicas.com"
