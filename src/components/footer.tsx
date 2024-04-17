@@ -107,7 +107,7 @@ export function Footer() {
               variant="default"
               className="flex items-center text-md gap-1 text-neutral-100 hover:bg-brand-orange hover:text-neutral-900 mt-2 sm:mt-0"
             >
-              Deixe a sua avaliação no
+              Nos avalie no
               <Image
                 src="/google.png"
                 alt="Google logo"
