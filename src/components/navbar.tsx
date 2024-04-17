@@ -100,23 +100,26 @@ export function Navbar() {
         </div>
         <div className="flex-col py-4">
           <ul>
-            <Link href="/">
+            <Link href="/" onClick={handleNav}>
               <li className="py-4 cursor-pointer uppercase text-neutral-900 hover:text-brand-orange">
                 Produtos
               </li>
             </Link>
-            <Link href="/obras">
+            <Link href="/obras" onClick={handleNav}>
               <li className="py-4 cursor-pointer uppercase text-neutral-900 hover:text-brand-orange">
                 Obras
               </li>
             </Link>
-            <Link href="/sobre">
+            <Link href="/sobre" onClick={handleNav}>
               <li className="py-4 cursor-pointer uppercase text-neutral-900 hover:text-brand-orange">
                 Sobre
               </li>
             </Link>
             <Link href="/#contato" onClick={handleClick('contato')}>
-              <li className="py-4 cursor-pointer uppercase text-neutral-900 hover:text-brand-orange">
+              <li
+                onClick={handleNav}
+                className="py-4 cursor-pointer uppercase text-neutral-900 hover:text-brand-orange"
+              >
                 Contato
               </li>
             </Link>
