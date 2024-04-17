@@ -1,7 +1,5 @@
 import { MainJobsCarrousel } from '@/components/mainJobsCarrousel'
 import { RecentJobsCarrousel } from '@/components/recentJobsCarrousel'
-import { Button } from '@/components/ui/button'
-import Link from 'next/link'
 import { GoHome } from 'react-icons/go'
 import { IoSettingsOutline } from 'react-icons/io5'
 import { PiSuitcaseSimple } from 'react-icons/pi'
@@ -14,14 +12,9 @@ export default function Home() {
           Faça seu projeto virar aço!
         </h1>
         <p className="text-white mb-8 sm:mb-12 text-sm sm:text-xl">
-          Realizando projetos com excelência desde 2000, a Frank Construções
-          Metálicas destaca-se como referência em qualidade no mercado.
+          Desde 2000, atuando como referência no segmento de construções
+          metálicas e se destacando pela excelência e segurança.
         </p>
-        <Link href="/obras">
-          <Button className="w-full sm:w-1/4 h-12 text-md sm:text-lg text-white rounded-xl bg-orange-600 hover:bg-brand-orange">
-            Estruturas Metálicas
-          </Button>
-        </Link>
       </div>
       <div className="w-5/6 sm:w-3/4 mt-12" id="servicos">
         <h2 className="font-extrabold text-2xl">Nossos Serviços</h2>
@@ -31,7 +24,6 @@ export default function Home() {
           conhecimento especializado, inovação e maestria artesanal para
           proporcionar resultados excepcionais em cada projeto.
         </p>
-        {/* I think if will be just divs, add a animation 3d hover or some animation */}
         <div className="flex flex-col sm:flex-row gap-3 mt-12">
           <div className="p-4 w-full sm:w-1/3 rounded-xl hover:bg-gradient-to-br from-white to-neutral-50 hover:shadow-ourServices transition duration-500 border">
             <GoHome className="h-6 w-6 mb-2" />
