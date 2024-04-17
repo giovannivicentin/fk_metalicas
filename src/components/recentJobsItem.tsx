@@ -15,7 +15,7 @@ export function RecentJobsItem({
   description,
 }: RecentJobsItemProps) {
   return (
-    <Card className="flex flex-col object-cover overflow-hidden border border-neutral-300">
+    <Card className="flex flex-col object-cover bg-background-color overflow-hidden border border-neutral-300">
       <Image
         src={src}
         alt={alt}
