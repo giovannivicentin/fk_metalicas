@@ -1,6 +1,7 @@
 import { MainJobsCarrousel } from '@/components/mainJobsCarrousel'
 import { RecentJobsCarrousel } from '@/components/recentJobsCarrousel'
 import Link from 'next/link'
+import Image from 'next/image'
 import { GoHome } from 'react-icons/go'
 import { IoSettingsOutline } from 'react-icons/io5'
 import { PiSuitcaseSimple } from 'react-icons/pi'
@@ -8,16 +9,29 @@ import { PiSuitcaseSimple } from 'react-icons/pi'
 export default function Home() {
   return (
     <div className="min-h-screen py-8 flex flex-col items-center bg-background-color">
-      <div className="mt-14 sm:mt-16 bg-apresentation bg-cover bg-center w-5/6 sm:w-3/4 min-h-64 sm:min-h-[26rem] xl:min-h-[30rem] rounded-xl flex flex-col justify-end px-4 sm:px-14 py-4 sm:py-8">
-        <h1 className="text-white font-extrabold text-2xl sm:text-6xl mb-4 mt-4 sm:mt-0">
+      <div className="mt-14 sm:mt-16 w-5/6 sm:w-3/4 min-h-64 sm:min-h-[26rem] xl:min-h-[30rem] rounded-xl flex flex-col justify-end px-4 sm:px-14 py-4 sm:py-8 relative">
+        <h1 className="text-white font-extrabold text-2xl sm:text-6xl mb-4 mt-4 sm:mt-0 z-10 animate-fade-right animate-once delay-500">
           Faça seu projeto virar aço!
         </h1>
-        <p className="text-white mb-8 sm:mb-12 text-sm sm:text-xl">
+        <p className="text-white mb-8 sm:mb-12 text-sm sm:text-xl z-10 animate-fade-right animate-once delay-500">
           Desde 2000, atuando como referência no segmento de construções
           metálicas e se destacando pela excelência e segurança.
         </p>
+        <Image
+          src="/apresentation.jpg"
+          layout="fill"
+          objectFit="cover"
+          priority
+          quality={100}
+          className="rounded-xl  animate-fade-right animate-once delay-500"
+          alt="Descrição da imagem"
+        />
       </div>
-      <div className="w-5/6 sm:w-3/4 mt-12" id="servicos">
+
+      <div
+        className="w-5/6 sm:w-3/4 mt-12 animate-fade-left animate-once delay-1000"
+        id="servicos"
+      >
         <h2 className="font-extrabold text-2xl">Nossos Serviços</h2>
         <p className="text-sm sm:text-md mt-2">
           A Frank Metálicas está preparada para te apoiar do começo ao fim da
@@ -54,7 +68,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="w-5/6 sm:w-3/4 mt-12">
+      <div className="w-5/6 sm:w-3/4 mt-12 animate-fade-right animate-once delay-1000">
         <h2 className="font-extrabold text-2xl">Principais Produtos</h2>
         <p className="text-sm sm:text-md mt-2">
           Os nossos produtos, que podem ser tanto de estilos mais artísticos
@@ -63,7 +77,7 @@ export default function Home() {
         </p>
         <MainJobsCarrousel />
       </div>
-      <div className="w-5/6 sm:w-3/4 mt-12">
+      <div className="w-5/6 sm:w-3/4 mt-12 animate-fade-left animate-once delay-1000">
         <div className="flex justify-between items-center">
           <h2 className="font-extrabold text-2xl">Obras Recentes</h2>
           <Link
