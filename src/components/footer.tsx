@@ -25,7 +25,7 @@ export function Footer() {
           <Link
             target="_blank"
             rel="noopener noreferrer"
-            className="text-muted-foreground text-sm hover:text-neutral-200"
+            className="text-neutral-200 text-sm hover:text-neutral-50"
             href="https://www.google.com.br/maps/dir//frank+metalicas/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x94cf2070efc55c2f:0xd394910ba4d351c4?sa=X&ved=2ahUKEwjlpYWx7MGEAxWdA7kGHdfvDOwQ9Rd6BAg_EAA"
           >
             R. Paschoal Gimene, 140. Várzea Paulista - SP, 13225-325
@@ -33,9 +33,6 @@ export function Footer() {
         </div>
 
         <div className="w-full sm:w-1/3 p-4 flex flex-col justify-between">
-          <p className="text-muted font-bold text-center text-2xl">
-            Envie-nos um email
-          </p>
           <div className="px-8">
             <ResendForm />
           </div>
@@ -63,7 +60,7 @@ export function Footer() {
               href="mailto:frank@frankmetalicas.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-muted hover:text-brand-orange"
+              className="text-muted hover:text-brand-orange focus:text-brand-orange"
             >
               frank@frankmetalicas.com
             </Link>
@@ -75,7 +72,7 @@ export function Footer() {
               rel="noopener noreferrer"
             >
               <AiFillFacebook
-                className="text-neutral-200 hover:text-brand-orange transition-transform transform hover:scale-110"
+                className="text-neutral-200 hover:text-brand-orange focus:text-brand-orange transition-transform transform hover:scale-110"
                 size={30}
               />
             </Link>
@@ -85,7 +82,7 @@ export function Footer() {
               rel="noopener noreferrer"
             >
               <AiFillInstagram
-                className="text-neutral-200 hover:text-brand-orange transition-transform transform hover:scale-110"
+                className="text-neutral-200 hover:text-brand-orange focus:text-brand-orange transition-transform transform hover:scale-110"
                 size={30}
               />
             </Link>
@@ -96,7 +93,7 @@ export function Footer() {
               rel="noopener noreferrer"
             >
               <RiWhatsappFill
-                className="text-neutral-200 hover:text-brand-orange transition-transform transform hover:scale-110"
+                className="text-neutral-200 hover:text-brand-orange focus:text-brand-orange  transition-transform transform hover:scale-110"
                 size={30}
               />
             </Link>
@@ -110,7 +107,7 @@ export function Footer() {
               variant="default"
               className="flex items-center text-md gap-1 text-neutral-100 hover:bg-brand-orange hover:text-neutral-900 mt-2 sm:mt-0"
             >
-              Avalie-nos no
+              Deixe a sua avaliação no
               <Image
                 src="/google.png"
                 alt="Google logo"
