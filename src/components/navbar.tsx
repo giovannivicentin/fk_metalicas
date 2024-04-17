@@ -28,7 +28,7 @@ export function Navbar() {
   }
 
   return (
-    <nav className="fixed z-50 w-full px-2 py-3 sm:py-4 shadow-md bg-background-color">
+    <nav className="fixed z-50 w-full px-2 py-3 md:py-4 shadow-md bg-background-color">
       <div className="flex justify-around items-center h-full w-full 2xl:px-16">
         <div>
           <Link href="/">
@@ -37,13 +37,13 @@ export function Navbar() {
               alt="Logo Frank Metálicas"
               width={120}
               height={60}
-              className="w-24 h-12 sm:w-24 sm:h-12 cursor-pointer"
+              className="w-24 h-12 md:w-24 md:h-12 cursor-pointer"
               priority
             />
           </Link>
         </div>
-        <div className="hidden sm:flex">
-          <ul className="hidden sm:flex items-center gap-10">
+        <div className="hidden md:flex">
+          <ul className="hidden md:flex items-center gap-10">
             <Link href="/">
               <li className="text-xl hover:text-brand-orange hover:border-b-brand-orange border-b border-b-background-color">
                 Produtos
@@ -76,7 +76,7 @@ export function Navbar() {
             </Link>
           </ul>
         </div>
-        <div onClick={handleNav} className="sm:hidden cursor-pointer pl-24">
+        <div onClick={handleNav} className="md:hidden cursor-pointer pl-24">
           <AiOutlineMenu
             className="text-black hover:text-brand-orange"
             size={25}
@@ -86,7 +86,7 @@ export function Navbar() {
       <div
         className={
           menuOpen
-            ? 'fixed left-0 top-0 w-[65%] sm:hidden h-screen bg-background-color/70 backdrop-blur-2xl p-10 ease-linear transition-all duration-300'
+            ? 'fixed left-0 top-0 w-[65%] md:hidden h-screen bg-background-color/70 backdrop-blur-2xl p-10 ease-linear transition-all duration-300'
             : 'fixed left-[-100%] h-screen top-0 p-10 bg-background-color/70 backdrop-blur-2xl ease-linear transition-all duration-300'
         }
       >
