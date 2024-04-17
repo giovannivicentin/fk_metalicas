@@ -1,5 +1,6 @@
 import { MainJobsCarrousel } from '@/components/mainJobsCarrousel'
 import { RecentJobsCarrousel } from '@/components/recentJobsCarrousel'
+import Link from 'next/link'
 import { GoHome } from 'react-icons/go'
 import { IoSettingsOutline } from 'react-icons/io5'
 import { PiSuitcaseSimple } from 'react-icons/pi'
@@ -19,49 +20,60 @@ export default function Home() {
       <div className="w-5/6 sm:w-3/4 mt-12" id="servicos">
         <h2 className="font-extrabold text-2xl">Nossos Serviços</h2>
         <p className="text-sm sm:text-md mt-2">
-          A Frank Metálicas disponibiliza uma extensa variedade de serviços
-          destinados a atender às demandas dos nossos clientes. Unimos
-          conhecimento especializado, inovação e maestria artesanal para
-          proporcionar resultados excepcionais em cada projeto.
+          A Frank Metálicas está preparada para te apoiar do começo ao fim da
+          necessidade com estrutura metálica. Confira como realizamos isso :
         </p>
         <div className="flex flex-col sm:flex-row gap-3 mt-12">
-          <div className="p-4 w-full sm:w-1/3 rounded-xl hover:bg-gradient-to-br from-white to-neutral-50 hover:shadow-ourServices transition duration-500 border">
-            <GoHome className="h-6 w-6 mb-2" />
-            <h3 className="font-bold text-lg">Construção</h3>
-            <p className="text-orange-800 text-sm sm:text-md leading-relaxed mt-1">
-              Somos especialistas na construção de edifícios comerciais e
-              residenciais, empregando materiais de aço de alta qualidade para
-              garantir durabilidade e sustentabilidade.
-            </p>
-          </div>
-          <div className="p-4 w-full sm:w-1/3 rounded-xl hover:bg-gradient-to-br from-white to-neutral-50 hover:shadow-ourServices transition duration-500 border">
+          <div className="p-4 w-full sm:w-1/3 rounded-xl hover:bg-gradient-to-br from-background-color to-neutral-50 hover:shadow-ourServices transition duration-500 border">
             <IoSettingsOutline className="h-6 w-6 mb-2" />
-            <h3 className="font-bold text-lg">Fabricação customizada</h3>
+            <h3 className="font-bold text-lg">Fabricação Personalizada</h3>
             <p className="text-orange-800 text-sm sm:text-md leading-relaxed mt-1">
-              Nossa equipe altamente qualificada de fabricantes possibilita a
-              criação de produtos de metal exclusivos. Seja para peças
-              decorativas ou itens funcionais, estamos aqui para auxiliar na
-              concretização da sua visão.
+              Desenvolvemos cada produto de maneira única, levando em
+              consideração cada centímetro e etapa para garantir excelência e
+              segurança.
             </p>
           </div>
-          <div className="p-4 w-full sm:w-1/3 rounded-xl hover:bg-gradient-to-br from-white to-neutral-50 hover:shadow-ourServices transition duration-500 border">
-            <PiSuitcaseSimple className="h-6 w-6 mb-2" />
-            <h3 className="font-bold text-lg">Gestão de Projetos</h3>
+          <div className="p-4 w-full sm:w-1/3 rounded-xl hover:bg-gradient-to-br from-background-color to-neutral-50 hover:shadow-ourServices transition duration-500 border">
+            <GoHome className="h-6 w-6 mb-2" />
+            <h3 className="font-bold text-lg">Instalação Completa</h3>
             <p className="text-orange-800 text-sm sm:text-md leading-relaxed mt-1">
-              Nossos serviços de gestão de projetos garantem que seu projeto de
-              construção em metal seja concluído no prazo e dentro do orçamento.
-              Cuidaremos de todos os detalhes para que você possa se concentrar
-              no seu negócio.
+              Transportamos o produto ao local de destino e realiazmos a
+              instalação com muito cuidado e atenção em dia e horário a combinar
+              com o cliente.
+            </p>
+          </div>
+
+          <div className="p-4 w-full sm:w-1/3 rounded-xl hover:bg-gradient-to-br from-background-color to-neutral-50 hover:shadow-ourServices transition duration-500 border">
+            <PiSuitcaseSimple className="h-6 w-6 mb-2" />
+            <h3 className="font-bold text-lg">Consultoria Especializada</h3>
+            <p className="text-orange-800 text-sm sm:text-md leading-relaxed mt-1">
+              Avaliamos o contexto da sua obra, bem como as suas necessidades e
+              desejos para recomendar a solução que mais possa te satisfazer
+              dentro do prazo e orçamento possivel.
             </p>
           </div>
         </div>
       </div>
       <div className="w-5/6 sm:w-3/4 mt-12">
         <h2 className="font-extrabold text-2xl">Principais Produtos</h2>
+        <p className="text-sm sm:text-md mt-2">
+          Os nossos produtos, que podem ser tanto de estilos mais artísticos
+          quanto mais casuais, são desenvolvidos em nossa matriz pela Equepe da
+          Frank Metálicas. Confira a seguir algumas das principais opções:
+        </p>
         <MainJobsCarrousel />
       </div>
       <div className="w-5/6 sm:w-3/4 mt-12">
-        <h2 className="font-extrabold text-2xl">Obras Recentes</h2>
+        <div className="flex justify-between items-center">
+          <h2 className="font-extrabold text-2xl">Obras Recentes</h2>
+          <Link
+            href="/obras"
+            className="text-orange-600 text-sm sm:text-lg hover:text-brand-orange hover:border-b-brand-orange border-b border-b-orange-600"
+          >
+            Explorar mais
+          </Link>
+        </div>
+
         <RecentJobsCarrousel />
       </div>
 
