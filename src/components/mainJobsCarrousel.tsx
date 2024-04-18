@@ -47,20 +47,20 @@ export function MainJobsCarrousel() {
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
             <MainJobsItem
-              title="Reforço Estrutural"
-              description="Nossos serviços de reforço estrutural garantem a segurança e prolongam a vida útil de estruturas, utilizando tecnologias avançadas e materiais de alta qualidade."
-              src="/structure.svg"
-              alt="structure icon"
+              title="Portões e Portas"
+              description="Oferecemos portões e portas robustos, disponíveis em diversos estilos, todos fabricados com materiais duráveis para maximizar a segurança e a estética da sua propriedade."
+              src="/gate.svg"
+              alt="gate icon"
             />
           </div>
         </CarouselItem>
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
             <MainJobsItem
-              title="Portões e Portas"
-              description="Oferecemos portões e portas robustos, disponíveis em diversos estilos, todos fabricados com materiais duráveis para maximizar a segurança e a estética da sua propriedade."
-              src="/gate.svg"
-              alt="gate icon"
+              title="Reforço Estrutural"
+              description="Nossos serviços de reforço estrutural garantem a segurança e prolongam a vida útil de estruturas, utilizando tecnologias avançadas e materiais de alta qualidade."
+              src="/structure.svg"
+              alt="structure icon"
             />
           </div>
         </CarouselItem>
