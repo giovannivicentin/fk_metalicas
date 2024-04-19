@@ -141,7 +141,7 @@ export function ResendForm() {
         />
         <Button
           type="submit"
-          className="w-full mt-3 text-md focus:bg-brand-orange hover:bg-brand-orange hover:text-neutral-900 focus:text-neutral-900"
+          className="w-full mt-3 font-semibold focus:bg-brand-orange hover:bg-brand-orange hover:text-neutral-900 focus:text-neutral-900"
         >
           Enviar
         </Button>

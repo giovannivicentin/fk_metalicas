@@ -28,11 +28,7 @@ export function MainJobsCarrousel() {
           <div className="p-1">
             <MainJobsItem
               title="Escadas e Guarda-Corpos"
-              description="Phasellus interdum felis metus,
-sed feugiat mi scelerisque placerat.
-Duis fermentum massa quis ante
-egestas, varius consectetur lacus
-molestie. Cras accumsan."
+              description="Nossas escadas e guarda-corpos combinam funcionalidade e design moderno, garantindo segurança e estilo para seu espaço, seja ele comercial ou residencial."
               src="/ladder.svg"
               alt="ladder icon"
             />
@@ -42,11 +38,7 @@ molestie. Cras accumsan."
           <div className="p-1">
             <MainJobsItem
               title="Marquises e Gazebos"
-              description="Phasellus interdum felis metus,
-sed feugiat mi scelerisque placerat.
-Duis fermentum massa quis ante
-egestas, varius consectetur lacus
-molestie. Cras accumsan."
+              description="Desenvolvemos marquises e gazebos que oferecem proteção e elegância, perfeitos para embelezar e funcionalizar exteriores de residências e estabelecimentos comerciais."
               src="/marquee.svg"
               alt="marquee icon"
             />
@@ -55,13 +47,8 @@ molestie. Cras accumsan."
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
             <MainJobsItem
-              title="Portões
-e Portas"
-              description="Phasellus interdum felis metus,
-sed feugiat mi scelerisque placerat.
-Duis fermentum massa quis ante
-egestas, varius consectetur lacus
-molestie. Cras accumsan."
+              title="Portões e Portas"
+              description="Oferecemos portões e portas robustos, disponíveis em diversos estilos, todos fabricados com materiais duráveis para maximizar a segurança e a estética da sua propriedade."
               src="/gate.svg"
               alt="gate icon"
             />
@@ -70,13 +57,8 @@ molestie. Cras accumsan."
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
             <MainJobsItem
-              title="Reforço
-Estrutural"
-              description="Phasellus interdum felis metus,
-sed feugiat mi scelerisque placerat.
-Duis fermentum massa quis ante
-egestas, varius consectetur lacus
-molestie. Cras accumsan."
+              title="Reforço Estrutural"
+              description="Nossos serviços de reforço estrutural garantem a segurança e prolongam a vida útil de estruturas, utilizando tecnologias avançadas e materiais de alta qualidade."
               src="/structure.svg"
               alt="structure icon"
             />
@@ -86,13 +68,8 @@ molestie. Cras accumsan."
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
             <MainJobsItem
-              title="e Muito
-Mais!"
-              description="Phasellus interdum felis metus,
-sed feugiat mi scelerisque placerat.
-Duis fermentum massa quis ante
-egestas, varius consectetur lacus
-molestie. Cras accumsan."
+              title="e Muito Mais!"
+              description="Além dos serviços listados, a Frank Metálicas oferece uma vasta gama de soluções customizadas em metalurgia. Seja qual for sua necessidade, temos a expertise e a tecnologia para desenvolver o projeto perfeito para você."
               src="/more.svg"
               alt="more icon"
             />
