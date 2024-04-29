@@ -27,7 +27,7 @@ export function RecentJobsCarrousel() {
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
             <RecentJobsItem
-              src="/recent_jobs_1.png"
+              src="/recentJobs_1.png"
               alt="Imagem de um trabalho feito no ibis hotel"
               title="Estrutura Ibis"
               description="lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -37,7 +37,7 @@ export function RecentJobsCarrousel() {
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
             <RecentJobsItem
-              src="/recent_jobs_2.png"
+              src="/recentJobs_2.png"
               alt="aa"
               title="lorem ipsum dolor"
               description="lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -47,7 +47,7 @@ export function RecentJobsCarrousel() {
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
             <RecentJobsItem
-              src="/recent_jobs_3.png"
+              src="/recentJobs_3.png"
               alt="aa"
               title="lorem ipsum dolor"
               description="lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -57,7 +57,7 @@ export function RecentJobsCarrousel() {
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
             <RecentJobsItem
-              src="/recent_jobs_4.png"
+              src="/recentJobs_4.png"
               alt="aa"
               title="lorem ipsum dolor"
               description="lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -67,7 +67,7 @@ export function RecentJobsCarrousel() {
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
             <RecentJobsItem
-              src="/recent_jobs_5.png"
+              src="/recentJobs_5.png"
               alt="aa"
               title="lorem ipsum dolor"
               description="lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -77,7 +77,7 @@ export function RecentJobsCarrousel() {
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
             <RecentJobsItem
-              src="/recent_jobs_6.png"
+              src="/recentJobs_6.png"
               alt="aa"
               title="lorem ipsum dolor"
               description="lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -87,7 +87,7 @@ export function RecentJobsCarrousel() {
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
             <RecentJobsItem
-              src="/recent_jobs_7.png"
+              src="/recentJobs_7.png"
               alt="aa"
               title="lorem ipsum dolor"
               description="lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -97,7 +97,7 @@ export function RecentJobsCarrousel() {
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
             <RecentJobsItem
-              src="/recent_jobs_8.png"
+              src="/recentJobs_8.png"
               alt="aa"
               title="lorem ipsum dolor"
               description="lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -107,7 +107,7 @@ export function RecentJobsCarrousel() {
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
             <RecentJobsItem
-              src="/recent_jobs_9.png"
+              src="/recentJobs_9.png"
               alt="aa"
               title="lorem ipsum dolor"
               description="lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -117,7 +117,7 @@ export function RecentJobsCarrousel() {
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
             <RecentJobsItem
-              src="/recent_jobs_10.png"
+              src="/recentJobs_10.png"
               alt="aa"
               title="lorem ipsum dolor"
               description="lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -127,7 +127,7 @@ export function RecentJobsCarrousel() {
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
             <RecentJobsItem
-              src="/recent_jobs_11.png"
+              src="/recentJobs_11.png"
               alt="aa"
               title="lorem ipsum dolor"
               description="lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -137,7 +137,7 @@ export function RecentJobsCarrousel() {
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
             <RecentJobsItem
-              src="/recent_jobs_12.png"
+              src="/recentJobs_12.png"
               alt="aa"
               title="lorem ipsum dolor"
               description="lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -147,7 +147,7 @@ export function RecentJobsCarrousel() {
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
             <RecentJobsItem
-              src="/recent_jobs_13.png"
+              src="/recentJobs_13.png"
               alt="aa"
               title="lorem ipsum dolor"
               description="lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -157,7 +157,7 @@ export function RecentJobsCarrousel() {
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
             <RecentJobsItem
-              src="/recent_jobs_14.png"
+              src="/recentJobs_14.png"
               alt="aa"
               title="lorem ipsum dolor"
               description="lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -167,7 +167,7 @@ export function RecentJobsCarrousel() {
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
             <RecentJobsItem
-              src="/recent_jobs_15.png"
+              src="/recentJobs_15.png"
               alt="aa"
               title="lorem ipsum dolor"
               description="lorem ipsum dolor sit amet, consectetur adipiscing elit."
