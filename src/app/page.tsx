@@ -18,7 +18,7 @@ export default function Home() {
           metálicas e se destacando pela excelência e segurança.
         </p>
         <Image
-          src="/apresentation.jpg"
+          src="/presentation.jpg"
           layout="fill"
           objectFit="cover"
           priority
