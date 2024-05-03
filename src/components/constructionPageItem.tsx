@@ -46,7 +46,7 @@ export function ConstructionPageItem({
             alt={alt}
             width={1920}
             height={1080}
-            className="w-full mt-4 rounded-lg"
+            className="mt-4 rounded-lg"
           />
           {title}
         </DialogTitle>

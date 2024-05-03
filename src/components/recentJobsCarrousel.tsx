@@ -27,7 +27,7 @@ export function RecentJobsCarrousel() {
         <CarouselItem className="md:basis-1/2 lg:basis-1/3">
           <div className="p-1">
             <RecentJobsItem
-              src="/recentJobs_1.png"
+              src="/recentJobs_2.png"
               alt="Imagem de um trabalho feito no ibis hotel"
               title="Estrutura Ibis"
               description="lorem ipsum dolor sit amet, consectetur adipiscing elit."
