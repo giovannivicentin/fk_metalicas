@@ -28,8 +28,8 @@ export function ConstructionPageItem({
             <Image
               src={src}
               alt={alt}
-              width={1760}
-              height={800}
+              width={1920}
+              height={1080}
               className="w-60 rounded-lg max-h-40"
             />
             <h2 className="mt-2 text-sm sm:text-lg">
@@ -44,8 +44,8 @@ export function ConstructionPageItem({
           <Image
             src={src}
             alt={alt}
-            width={1760}
-            height={800}
+            width={1920}
+            height={1080}
             className="w-full mt-4 rounded-lg"
           />
           {title}
