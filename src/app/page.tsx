@@ -23,7 +23,7 @@ export default function Home() {
           objectFit="cover"
           priority
           quality={100}
-          className="rounded-xl  animate-fade-right animate-once delay-500"
+          className="rounded-xl animate-fade-right animate-once delay-500"
           alt="Descrição da imagem"
         />
       </div>
