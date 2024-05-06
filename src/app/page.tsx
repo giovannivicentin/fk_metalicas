@@ -19,12 +19,10 @@ export default function Home() {
         </p>
         <Image
           src="/presentation.jpg"
-          layout="fill"
-          objectFit="cover"
+          fill
           priority
-          quality={100}
-          className="rounded-xl animate-fade-right animate-once delay-500"
-          alt="Descrição da imagem"
+          className="rounded-xl object-cover animate-fade-right animate-once delay-500"
+          alt="Uma obra como plano de fundo para o titulo principal da pagina"
         />
       </div>
 
