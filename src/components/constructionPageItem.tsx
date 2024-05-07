@@ -32,10 +32,9 @@ export function ConstructionPageItem({
               height={1080}
               className="w-60 rounded-lg max-h-40"
             />
-            <h2 className="mt-2 text-sm sm:text-lg">
-              <strong>{title}</strong>
+            <h2 className="mt-2 text-sm sm:text-[1rem] pr-2 font-bold">
+              {title}
             </h2>
-            <p className="mt-1 text-xs sm:text-sm">{description}</p>
           </div>
         </div>
       </DialogTrigger>
