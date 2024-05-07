@@ -3,35 +3,39 @@ import { ConstructionItem } from './interface'
 const constructionItems: ConstructionItem[] = [
   {
     id: 1,
-    name: 'Item 1',
+    name: 'Guarda-Corpo Metálico Ornamental para Escadas',
     src: '/recentJobs_1.png',
-    alt: 'Alt text for Item 1',
-    title: 'Title of Item 1',
-    description: 'Description of Item 1',
+    alt: 'Guarda-Corpo Metálico Ornamental para Escadas',
+    title: 'Guarda-Corpo Metálico Ornamental para Escadas',
+    description:
+      'Projetado exclusivamente para complementar escadas, este guarda-corpo oferece robustez e elegância na cor preta intensa, que contrasta perfeitamente com a leveza de escadas brancas. Os ornamentos cuidadosamente desenhados adicionam um toque de sofisticação, transformando um elemento de segurança em uma peça de arte decorativa. Ideal para ambientes residenciais ou comerciais que buscam estilo sem comprometer a funcionalidade.',
   },
   {
     id: 2,
-    name: 'Item 2',
+    name: 'Guarda-Corpo Metálico Ornamental para Escadas',
     src: '/recentJobs_2.png',
-    alt: 'Alt text for Item 2',
-    title: 'Title of Item 2',
-    description: 'Description of Item 2',
+    alt: 'Guarda-Corpo Metálico Ornamental para Escadas',
+    title: 'Guarda-Corpo Metálico Ornamental para Escadas',
+    description:
+      'Projetado exclusivamente para complementar escadas, este guarda-corpo oferece robustez e elegância na cor preta intensa, que contrasta perfeitamente com a leveza de escadas brancas. Os ornamentos cuidadosamente desenhados adicionam um toque de sofisticação, transformando um elemento de segurança em uma peça de arte decorativa. Ideal para ambientes residenciais ou comerciais que buscam estilo sem comprometer a funcionalidade.',
   },
   {
     id: 3,
     name: 'Item 3',
     src: '/recentJobs_3.png',
-    alt: 'Alt text for Item 3',
-    title: 'Title of Item 3',
-    description: 'Description of Item 3',
+    alt: 'Guarda-Corpo Metálico com Tela Integrada',
+    title: 'Guarda-Corpo Metálico com Tela Integrada',
+    description:
+      'Guarda-Corpo Metálico com Tela Metálica Integrada é a escolha perfeita para quem busca proteção eficiente e estética contemporânea. Garantindo durabilidade e uma barreira segura contra quedas. A tela metálica oferece proteção sem obstruir a visão ou comprometer a entrada de luz natural, perfeita para ambientes que valorizam a transparência visual.',
   },
   {
     id: 4,
-    name: 'Item 4',
+    name: 'Escada Metálica Helicoidal Pré-preparada para Revestimento',
     src: '/recentJobs_4.png',
-    alt: 'Alt text for Item 4',
-    title: 'Title of Item 4',
-    description: 'Description of Item 4',
+    alt: 'Escada Metálica Helicoidal Pré-preparada para Revestimento',
+    title: 'Escada Metálica Helicoidal Pré-preparada para Revestimento',
+    description:
+      'Projetada para ser o centro das atenções em qualquer ambiente. Esta estrutura espiralada não apenas economiza espaço, mas também é construída com materiais de alta qualidade que garantem durabilidade e estabilidade. O design inteligente da escada inclui uma preparação especial para revestimentos futuros, permitindo que você personalize a aparência para combinar com a evolução do seu estilo interior.',
   },
   {
     id: 5,
@@ -46,15 +50,16 @@ const constructionItems: ConstructionItem[] = [
     name: 'Item 6',
     src: '/recentJobs_6.png',
     alt: 'Alt text for Item 6',
-    title: 'Title of Item 6',
+    title: 'Maquises metalica com viga W e vidro',
     description: 'Description of Item 6',
   },
   {
     id: 7,
-    name: 'Item 7',
+    name: 'Escada metalica em U com viga lateral e pisada em chapa de acao antiderrapante com guarda corpo atendendo normas do corpo de bombeiro',
     src: '/recentJobs_7.png',
-    alt: 'Alt text for Item 7',
-    title: 'Title of Item 7',
+    alt: 'Escada metalica em U com viga lateral e pisada em chapa de acao antiderrapante com guarda corpo atendendo normas do corpo de bombeiro',
+    title:
+      'Escada metalica em U com viga lateral e pisada em chapa de acao antiderrapante com guarda corpo atendendo normas do corpo de bombeiro',
     description: 'Description of Item 7',
   },
   {
@@ -62,7 +67,7 @@ const constructionItems: ConstructionItem[] = [
     name: 'Item 8',
     src: '/recentJobs_8.png',
     alt: 'Alt text for Item 8',
-    title: 'Title of Item 8',
+    title: 'Maquise metalica para receber vidro',
     description: 'Description of Item 8',
   },
   {
@@ -70,7 +75,7 @@ const constructionItems: ConstructionItem[] = [
     name: 'Item 9',
     src: '/recentJobs_9.png',
     alt: 'Alt text for Item 9',
-    title: 'Title of Item 9',
+    title: 'Guarda corpo metalico na sacada',
     description: 'Description of Item 9',
   },
   {
@@ -86,7 +91,8 @@ const constructionItems: ConstructionItem[] = [
     name: 'Item 11',
     src: '/recentJobs_11.png',
     alt: 'Alt text for Item 11',
-    title: 'Title of Item 11',
+    title:
+      'Escada metalica em L com viga lateral UDCe, pisada em chapa de aco antiderrapante com guarda corpo atendendo normas do corpo de bombeiro',
     description: 'Description of Item 11',
   },
   {
@@ -102,7 +108,8 @@ const constructionItems: ConstructionItem[] = [
     name: 'Item 13',
     src: '/recentJobs_13.png',
     alt: 'Alt text for Item 13',
-    title: 'Title of Item 13',
+    title:
+      'Escada metalica em U com viga lateral e chapa de aco antiderrapante com as normas do corpo de bombeiro',
     description: 'Description of Item 13',
   },
   {
@@ -111,14 +118,15 @@ const constructionItems: ConstructionItem[] = [
     src: '/recentJobs_14.png',
     alt: 'Alt text for Item 14',
     title: 'Title of Item 14',
-    description: 'Description of Item 14',
+    description:
+      'maquise metalica com viga w e perfil tubular para receber vidro',
   },
   {
     id: 15,
     name: 'Item 15',
     src: '/recentJobs_15.png',
     alt: 'Alt text for Item 15',
-    title: 'Title of Item 15',
+    title: 'Guarda corpo metalico',
     description: 'Description of Item 15',
   },
   {
@@ -126,7 +134,8 @@ const constructionItems: ConstructionItem[] = [
     name: 'Item 16',
     src: '/recentJobs_16.png',
     alt: 'Alt text for Item 16',
-    title: 'Title of Item 16',
+    title:
+      'mezanino passarela tecnica escada marinheiro e guarda corpo metalico industrial',
     description: 'Description of Item 16',
   },
   {
@@ -134,7 +143,7 @@ const constructionItems: ConstructionItem[] = [
     name: 'Item 17',
     src: '/recentJobs_17.png',
     alt: 'Alt text for Item 17',
-    title: 'Title of Item 17',
+    title: 'Escada metalica revestida',
     description: 'Description of Item 17',
   },
   {
@@ -142,7 +151,8 @@ const constructionItems: ConstructionItem[] = [
     name: 'Item 18',
     src: '/recentJobs_18.png',
     alt: 'Alt text for Item 18',
-    title: 'Title of Item 18',
+    title:
+      'reforco estrutural da residencia com viga W, VS e escada metalica com viga W central e pisadas com de aco grossa',
     description: 'Description of Item 18',
   },
   {
@@ -150,7 +160,8 @@ const constructionItems: ConstructionItem[] = [
     name: 'Item 19',
     src: '/recentJobs_19.png',
     alt: 'Alt text for Item 19',
-    title: 'Title of Item 19',
+    title:
+      'reforco estrutural da residencia com viga W, VS e escada metalica com viga W central e pisadas com de aco grossa',
     description: 'Description of Item 19',
   },
   {
@@ -158,7 +169,8 @@ const constructionItems: ConstructionItem[] = [
     name: 'Item 20',
     src: '/recentJobs_20.png',
     alt: 'Alt text for Item 20',
-    title: 'Title of Item 20',
+    title:
+      'reforco estrutural da residencia com viga W, VS e escada metalica com viga W central e pisadas com de aco grossa',
     description: 'Description of Item 20',
   },
   {
@@ -166,7 +178,7 @@ const constructionItems: ConstructionItem[] = [
     name: 'Item 21',
     src: '/recentJobs_21.png',
     alt: 'Alt text for Item 21',
-    title: 'Title of Item 21',
+    title: 'Painel metalico de teto decorativo',
     description: 'Description of Item 21',
   },
   {
@@ -195,10 +207,11 @@ const constructionItems: ConstructionItem[] = [
   },
   {
     id: 25,
-    name: 'Item 25',
+    name: '25',
     src: '/recentJobs_25.png',
-    alt: 'Alt text for Item 25',
-    title: 'Title of Item 25',
+    alt: '25',
+    title:
+      'Escada metalica com viga central e chapa de aco lisa com revestimento em madeira',
     description: 'Description of Item 25',
   },
   {
@@ -214,7 +227,8 @@ const constructionItems: ConstructionItem[] = [
     name: 'Item 27',
     src: '/recentJobs_27.png',
     alt: 'Alt text for Item 27',
-    title: 'Title of Item 27',
+    title:
+      'Cobertura de garagem em balanco com tirantes rigidos e telha termo acustica',
     description: 'Description of Item 27',
   },
   {
@@ -223,7 +237,8 @@ const constructionItems: ConstructionItem[] = [
     src: '/recentJobs_28.png',
     alt: 'Alt text for Item 28',
     title: 'Title of Item 28',
-    description: 'Description of Item 28',
+    description:
+      'Cobertura de garagem com tirantes rigidos e telha termo acustica',
   },
   {
     id: 29,
@@ -246,7 +261,8 @@ const constructionItems: ConstructionItem[] = [
     name: 'Item 31',
     src: '/recentJobs_31.png',
     alt: 'Alt text for Item 31',
-    title: 'Title of Item 31',
+    title:
+      'Escada metalica com viga lateral laminada com bandeja para receber piso',
     description: 'Description of Item 31',
   },
   {
@@ -254,7 +270,7 @@ const constructionItems: ConstructionItem[] = [
     name: 'Item 32',
     src: '/recentJobs_32.png',
     alt: 'Alt text for Item 32',
-    title: 'Title of Item 32',
+    title: 'Guarda corpo metalico',
     description: 'Description of Item 32',
   },
   {
@@ -262,7 +278,7 @@ const constructionItems: ConstructionItem[] = [
     name: 'Item 33',
     src: '/recentJobs_33.png',
     alt: 'Alt text for Item 33',
-    title: 'Title of Item 33',
+    title: 'Passarela metalica com viga W e guarda corpo artistico',
     description: 'Description of Item 33',
   },
   {
@@ -270,8 +286,10 @@ const constructionItems: ConstructionItem[] = [
     name: 'Item 34',
     src: '/recentJobs_34.png',
     alt: 'Alt text for Item 34',
-    title: 'Title of Item 34',
-    description: 'Description of Item 34',
+    title:
+      'Escada metalica reta com viga UDC e pisada e espelho em chapa de aco antiderrapante',
+    description:
+      'Escada metalica reta com viga UDC e pisada e espelho em chapa de aco antiderrapante',
   },
   {
     id: 35,
@@ -286,15 +304,15 @@ const constructionItems: ConstructionItem[] = [
     name: 'Item 36',
     src: '/recentJobs_36.png',
     alt: 'Alt text for Item 36',
-    title: 'Title of Item 36',
+    title: 'Guarda corpo metalico',
     description: 'Description of Item 36',
   },
   {
     id: 37,
-    name: 'Item 37',
+    name: 'Marquise metalica artistica dupla para receber vidro',
     src: '/recentJobs_37.png',
-    alt: 'Alt text for Item 37',
-    title: 'Title of Item 37',
+    alt: 'Marquise metalica artistica dupla para receber vidro',
+    title: 'Marquise metalica artistica dupla para receber vidro',
     description: 'Description of Item 37',
   },
   {
@@ -310,7 +328,7 @@ const constructionItems: ConstructionItem[] = [
     name: 'Item 39',
     src: '/recentJobs_39.png',
     alt: 'Alt text for Item 39',
-    title: 'Title of Item 39',
+    title: 'Marquise metalica artistica dupla para receber vidro',
     description: 'Description of Item 39',
   },
   {
@@ -318,7 +336,7 @@ const constructionItems: ConstructionItem[] = [
     name: 'Item 40',
     src: '/recentJobs_40.png',
     alt: 'Alt text for Item 40',
-    title: 'Title of Item 40',
+    title: 'Guarda corpo com ornatos artistico',
     description: 'Description of Item 40',
   },
   {
@@ -326,7 +344,7 @@ const constructionItems: ConstructionItem[] = [
     name: 'Item 41',
     src: '/recentJobs_41.png',
     alt: 'Alt text for Item 41',
-    title: 'Title of Item 41',
+    title: 'Mezanino com perfil tubular industrial e piso wall',
     description: 'Description of Item 41',
   },
   {
@@ -334,7 +352,7 @@ const constructionItems: ConstructionItem[] = [
     name: 'Item 42',
     src: '/recentJobs_42.png',
     alt: 'Alt text for Item 42',
-    title: 'Title of Item 42',
+    title: 'Guarda corpo em sacada preto',
     description: 'Description of Item 42',
   },
   {
@@ -342,7 +360,7 @@ const constructionItems: ConstructionItem[] = [
     name: 'Item 43',
     src: '/recentJobs_43.png',
     alt: 'Alt text for Item 43',
-    title: 'Title of Item 43',
+    title: 'Floreira calandra com chapa de aco galvanizada',
     description: 'Description of Item 43',
   },
 ]
