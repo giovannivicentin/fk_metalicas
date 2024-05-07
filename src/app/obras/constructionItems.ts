@@ -117,9 +117,8 @@ const constructionItems: ConstructionItem[] = [
     name: 'Item 14',
     src: '/recentJobs_14.png',
     alt: 'Alt text for Item 14',
-    title: 'Title of Item 14',
-    description:
-      'maquise metalica com viga w e perfil tubular para receber vidro',
+    title: 'Marquise metálica com viga W e perfil tubular para receber vidro.',
+    description: '',
   },
   {
     id: 15,
@@ -178,7 +177,7 @@ const constructionItems: ConstructionItem[] = [
     name: 'Item 21',
     src: '/recentJobs_21.png',
     alt: 'Alt text for Item 21',
-    title: 'Painel metalico de teto decorativo',
+    title: '21',
     description: 'Description of Item 21',
   },
   {
@@ -194,7 +193,7 @@ const constructionItems: ConstructionItem[] = [
     name: 'Item 23',
     src: '/recentJobs_23.png',
     alt: 'Alt text for Item 23',
-    title: 'Title of Item 23',
+    title: 'Painel metalico de teto decorativo',
     description: 'Description of Item 23',
   },
   {
@@ -219,7 +218,8 @@ const constructionItems: ConstructionItem[] = [
     name: 'Item 26',
     src: '/recentJobs_26.png',
     alt: 'Alt text for Item 26',
-    title: 'Title of Item 26',
+    title:
+      'Cobertura de garagem em balanco com tirantes rigidos e telha termo acustica',
     description: 'Description of Item 26',
   },
   {
@@ -236,7 +236,8 @@ const constructionItems: ConstructionItem[] = [
     name: 'Item 28',
     src: '/recentJobs_28.png',
     alt: 'Alt text for Item 28',
-    title: 'Title of Item 28',
+    title:
+      'Cobertura de garagem em balanco com tirantes rigidos e telha termo acustica',
     description:
       'Cobertura de garagem com tirantes rigidos e telha termo acustica',
   },
@@ -253,7 +254,7 @@ const constructionItems: ConstructionItem[] = [
     name: 'Item 30',
     src: '/recentJobs_30.png',
     alt: 'Alt text for Item 30',
-    title: 'Title of Item 30',
+    title: 'Guarda corpo metalico',
     description: 'Description of Item 30',
   },
   {
@@ -296,7 +297,7 @@ const constructionItems: ConstructionItem[] = [
     name: 'Item 35',
     src: '/recentJobs_35.png',
     alt: 'Alt text for Item 35',
-    title: 'Title of Item 35',
+    title: 'Floreira calandrada com chapa de aco galvanizada',
     description: 'Description of Item 35',
   },
   {
@@ -346,22 +347,6 @@ const constructionItems: ConstructionItem[] = [
     alt: 'Alt text for Item 41',
     title: 'Mezanino com perfil tubular industrial e piso wall',
     description: 'Description of Item 41',
-  },
-  {
-    id: 42,
-    name: 'Item 42',
-    src: '/recentJobs_42.png',
-    alt: 'Alt text for Item 42',
-    title: 'Guarda corpo em sacada preto',
-    description: 'Description of Item 42',
-  },
-  {
-    id: 43,
-    name: 'Item 43',
-    src: '/recentJobs_43.png',
-    alt: 'Alt text for Item 43',
-    title: 'Floreira calandra com chapa de aco galvanizada',
-    description: 'Description of Item 43',
   },
 ]
 
