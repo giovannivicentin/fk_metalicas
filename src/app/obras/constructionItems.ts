@@ -30,10 +30,10 @@ const constructionItems: ConstructionItem[] = [
   },
   {
     id: 4,
-    name: 'Escada Metálica Helicoidal Pré-preparada para Revestimento',
+    name: 'Escada Metálica Helicoidal preparada para Revestimento',
     src: '/recentJobs_4.png',
-    alt: 'Escada Metálica Helicoidal Pré-preparada para Revestimento',
-    title: 'Escada Metálica Helicoidal Pré-preparada para Revestimento',
+    alt: 'Escada Metálica Helicoidal preparada para Revestimento',
+    title: 'Escada Metálica Helicoidal preparada para Revestimento',
     description:
       'Projetada para ser o centro das atenções em qualquer ambiente. Esta estrutura espiralada não apenas economiza espaço, mas também é construída com materiais de alta qualidade que garantem durabilidade e estabilidade. O design inteligente da escada inclui uma preparação especial para revestimentos futuros, permitindo que você personalize a aparência para combinar com a evolução do seu estilo interior.',
   },
