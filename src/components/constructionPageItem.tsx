@@ -23,7 +23,7 @@ export function ConstructionPageItem({
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <div className="cursor-pointer">
+        <div className="cursor-pointer hover:scale-110 transition-transform duration-300 hover:text-orange-600">
           <div className="flex flex-col">
             <Image
               src={src}
@@ -32,7 +32,7 @@ export function ConstructionPageItem({
               height={1080}
               className="w-60 rounded-lg max-h-40"
             />
-            <h2 className="mt-2 text-sm sm:text-[1rem] pr-2 font-bold">
+            <h2 className="mt-2 text-sm sm:text-[1rem] pr-2 font-medium">
               {title}
             </h2>
           </div>
