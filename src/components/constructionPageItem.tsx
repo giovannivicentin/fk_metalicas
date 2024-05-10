@@ -32,7 +32,7 @@ export function ConstructionPageItem({
               height={1080}
               className="w-60 rounded-lg max-h-40"
             />
-            <h2 className="mt-2 text-[0.7rem] leading-[0.8rem] sm:leading-[1rem] sm:text-[1rem] pr-5 font-medium sm:text-center">
+            <h2 className="mt-2 text-[0.7rem] leading-[0.8rem] sm:leading-[1rem] sm:text-[1rem] sm:pr-5 font-medium text-center">
               {title}
             </h2>
           </div>

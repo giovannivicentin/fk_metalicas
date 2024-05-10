@@ -6,7 +6,7 @@ const constructionItems: ConstructionItem[] = [
     name: 'Marquise Metálica com Viga W e Perfil Tubular para Vidro',
     src: '/recentJobs_14.png',
     alt: 'Marquise Metálica com Viga W e Perfil Tubular para Vidro',
-    title: 'Marquise Metálica com Viga W e Perfil Tubular para Vidro',
+    title: 'Marquise Metálica Tubular para Vidro',
     description:
       'Esta combinação não só fortalece a estrutura, garantindo durabilidade e resistência, mas também prepara o caminho para uma integração perfeita com painéis de vidro, proporcionando uma cobertura elegante e luminosa.',
   },
@@ -15,7 +15,7 @@ const constructionItems: ConstructionItem[] = [
     name: 'Marquise Metálica Preta Pronta para Vidro',
     src: '/recentJobs_8.png',
     alt: 'Marquise Metálica Preta Pronta para Vidro',
-    title: 'Marquise Metálica Preta Pronta para Vidro',
+    title: 'Marquise Metálica Pronta para Vidro',
     description:
       'Esta marquise combina a durabilidade do metal com a sofisticação do acabamento em preto, oferecendo um visual elegante que complementa qualquer fachada. Preparada para a instalação de vidro, proporciona não apenas proteção contra elementos externos, mas também permite a passagem de luz natural, criando um ambiente acolhedor e iluminado.',
   },
@@ -33,7 +33,7 @@ const constructionItems: ConstructionItem[] = [
     name: 'Marquise Metálica Artística Dupla para Vidro',
     src: '/recentJobs_37.png',
     alt: 'Marquise Metálica Artística Dupla para Vidro',
-    title: 'Marquise Metálica Artística Dupla para Vidro',
+    title: 'Marquise Metálica Artística Dupla',
     description:
       'Com uma estrutura dupla que proporciona um efeito visual impressionante, esta marquise é ideal para espaços que buscam uma combinação de estilo moderno e proteção eficaz. Preparada para acomodar vidro, ela oferece uma cobertura elegante e luminosa, permitindo a passagem de luz natural enquanto protege contra as intempéries. ',
   },
@@ -42,7 +42,7 @@ const constructionItems: ConstructionItem[] = [
     name: 'Estruturas Metálicas para Escadas',
     src: '/recentJobs_18.png',
     alt: 'Estruturas Metálicas para Escadas',
-    title: 'Estruturas Metálicas para Escadas',
+    title: 'Estrutura Metálica para Escada',
     description:
       'Prepara a estrutura para futuras ampliações ou modificações. Paralelamente, nossa escada metálica com viga W central oferece uma solução de acesso duradoura e esteticamente agradável. Garantindo resistência e durabilidade, ideal para uso frequente.',
   },
@@ -51,7 +51,7 @@ const constructionItems: ConstructionItem[] = [
     name: 'Escada Metálica em L com Guarda-Corpo Normatizado',
     src: '/recentJobs_10.png',
     alt: 'Escada Metálica em L com Guarda-Corpo Normatizado',
-    title: 'Escada Metálica em L com Guarda-Corpo Normatizado',
+    title: 'Escada Metálica Normatizada',
     description:
       'Com uma viga lateral UDCe que proporciona estabilidade estrutural superior, e pisadas em chapa de aço antiderrapante, esta escada garante uma superfície segura sob qualquer condição de uso. O guarda-corpo, alinhado com as normas do corpo de bombeiros, assegura proteção adicional, tornando-a ideal para ambientes que exigem conformidade com elevados padrões de segurança.',
   },
@@ -60,7 +60,7 @@ const constructionItems: ConstructionItem[] = [
     name: 'Escada Metálica Helicoidal preparada para Revestimento',
     src: '/recentJobs_4.png',
     alt: 'Escada Metálica Helicoidal preparada para Revestimento',
-    title: 'Escada Metálica Helicoidal preparada para Revestimento',
+    title: 'Escada Metálica Helicoidal',
     description:
       'Projetada para ser o centro das atenções em qualquer ambiente. Esta estrutura espiralada não apenas economiza espaço, mas também é construída com materiais de alta qualidade que garantem durabilidade e estabilidade. O design inteligente da escada inclui uma preparação especial para revestimentos futuros, permitindo que você personalize a aparência para combinar com a evolução do seu estilo interior.',
   },
@@ -69,7 +69,7 @@ const constructionItems: ConstructionItem[] = [
     name: 'Escada Metálica em U Verde com Corrimão Conforme Normas',
     src: '/recentJobs_13.png',
     alt: 'Escada Metálica em U Verde com Corrimão Conforme Normas',
-    title: 'Escada Metálica em U com Corrimão Conforme Normas',
+    title: 'Escada Metálica em U com Corrimão',
     description:
       'Equipada com corrimão e uma robusta viga lateral, proporciona suporte e estabilidade excelentes. As pisadas são feitas em chapa de aço antiderrapante, garantindo máxima segurança conforme as exigências do corpo de bombeiros. Ideal para ambientes que necessitam de soluções seguras sem comprometer a estética, nossa escada é perfeita para instalações em locais comerciais, industriais ou residenciais.',
   },
@@ -87,7 +87,7 @@ const constructionItems: ConstructionItem[] = [
     name: 'Escada Metálica com Revestimento Personalizado',
     src: '/recentJobs_17.png',
     alt: 'Escada Metálica com Revestimento Personalizado',
-    title: 'Escada Metálica com Revestimento Personalizado',
+    title: 'Escada Metálica com Revestimento',
     description:
       'Construída com uma base de metal resistente, esta escada é revestida com materiais de alta qualidade que não apenas melhoram sua estética, mas também proporcionam proteção adicional contra desgastes e corrosão. Perfeita para ambientes residenciais, comerciais ou industriais.',
   },
@@ -96,7 +96,7 @@ const constructionItems: ConstructionItem[] = [
     name: 'Escada Metálica com Revestimento em Madeira',
     src: '/recentJobs_25.png',
     alt: 'Escada Metálica com Revestimento em Madeira',
-    title: 'Escada Metálica com Revestimento em Madeira',
+    title: 'Escada Metálica com Revestimento',
     description:
       'Esta escada apresenta uma viga central de aço que proporciona uma estrutura sólida e durável, enquanto as pisadas lisas de aço são cuidadosamente revestidas em madeira, oferecendo uma estética calorosa e convidativa.',
   },
@@ -105,7 +105,7 @@ const constructionItems: ConstructionItem[] = [
     name: 'Escada Metálica Reta com Chapa Antiderrapante',
     src: '/recentJobs_34.png',
     alt: 'Escada Metálica Reta com Chapa Antiderrapante',
-    title: 'Escada Metálica Reta com Chapa Antiderrapante',
+    title: 'Escada Metálica com Chapa Antiderrapante',
     description:
       'As pisadas e os espelhos são fabricados em chapa de aço antiderrapante, garantindo uma superfície segura e durável, ideal para ambientes com alto tráfego ou condições adversas.',
   },
