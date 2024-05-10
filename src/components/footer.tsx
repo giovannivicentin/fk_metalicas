@@ -129,7 +129,7 @@ export function Footer() {
         </div>
       </div>
       <div className="w-full bg-zinc-900">
-        <p className="flex pt-1 text-muted-foreground w-full justify-center items-center">
+        <p className="flex pt-1 text-center text-muted-foreground w-full justify-center items-center">
           © Todos os direitos reservados Frank Construções Metálicas.
         </p>
         <Link
