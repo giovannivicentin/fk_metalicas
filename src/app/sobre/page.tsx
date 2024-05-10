@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 function AboutPage() {
   return (
-    <div className="min-h-lvh flex flex-col gap-4 items-center justify-center py-20 bg-background-color">
+    <div className="min-h-lvh flex flex-col gap-4 items-center justify-center py-8 bg-background-color">
       <div className="flex flex-col-reverse items-center justify-center lg:flex-row w-11/12 md:w-3/4 gap-4 mt-4 md:mt-20">
         <Image
           loading="lazy"

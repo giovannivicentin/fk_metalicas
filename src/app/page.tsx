@@ -32,10 +32,11 @@ export default function Home() {
       >
         <h2 className="font-extrabold text-2xl">Nossos Serviços</h2>
         <p className="text-sm sm:text-md mt-2">
-          A Frank Metálicas está preparada para te apoiar do começo ao fim da
-          necessidade com estrutura metálica. Confira como realizamos isso :
+          A Frank Metálicas está preparada para te apoiar do começo ao fim nas
+          suas necessidades com estruturas metálicas. Confira como realizamos
+          isso:
         </p>
-        <div className="flex flex-col sm:flex-row gap-3 mt-12">
+        <div className="flex flex-col sm:flex-row gap-3 mt-4">
           <div className="p-4 w-full sm:w-1/3 rounded-xl hover:bg-gradient-to-br from-background-color to-neutral-50 hover:shadow-ourServices transition duration-500 border">
             <IoSettingsOutline className="h-6 w-6 mb-2" />
             <h3 className="font-bold text-lg">Fabricação Personalizada</h3>

@@ -9,7 +9,7 @@ function ConstructionPage() {
         <h1 className="pt-32 text-start text-2xl sm:text-3xl font-extrabold">
           Obras em destaque
         </h1>
-        <p className="text-start leading-relaxed text-sm sm:text-lg mt-4">
+        <p className="text-start leading-relaxed text-sm sm:text-lg mt-1">
           Explore alguns dos nossos trabalhos entregues. Para observair mais
           detalhes, clique sobre a imagem escolhida por você.
         </p>
