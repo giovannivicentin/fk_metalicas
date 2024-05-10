@@ -14,7 +14,7 @@ function ConstructionPage() {
           detalhes, clique sobre a imagem escolhida por você.
         </p>
       </div>
-      <div className="mt-8 animate-fade-up grid grid-cols-2 sm:grid-cols-4 gap-4 duration-1000 delay-400">
+      <div className="mt-8 animate-fade-up grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-4 duration-1000 delay-400">
         {constructionItems.map((item: ConstructionItem) => (
           <ConstructionPageItem
             key={item.id}
