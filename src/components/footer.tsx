@@ -33,7 +33,7 @@ export function Footer() {
         </div>
 
         <div className="w-full sm:w-1/3 p-4 flex flex-col justify-between">
-          <div className="px-8">
+          <div className="sm:px-8">
             <ResendForm />
           </div>
         </div>
@@ -112,6 +112,7 @@ export function Footer() {
             href="https://g.page/r/CcRR06QLkZTTEBM/review"
             target="_blank"
             rel="noopener noreferrer"
+            className="flex flex-col justify-center w-full"
           >
             <Button
               variant="default"
