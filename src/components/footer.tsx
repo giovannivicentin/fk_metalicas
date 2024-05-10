@@ -112,7 +112,7 @@ export function Footer() {
             href="https://g.page/r/CcRR06QLkZTTEBM/review"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex flex-col justify-center w-full"
+            className="flex flex-col justify-center w-full sm:pl-16"
           >
             <Button
               variant="default"
