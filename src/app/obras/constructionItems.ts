@@ -119,6 +119,15 @@ const constructionItems: ConstructionItem[] = [
       'Esta escada apresenta uma viga lateral laminada, oferecendo uma estrutura robusta e duradoura, enquanto a bandeja especialmente projetada para cada degrau está preparada para receber o tipo de piso de sua escolha, permitindo uma personalização completa do acabamento.',
   },
   {
+    id: 43,
+    name: 'Escada Metálica Preta Normatizada',
+    src: '/recentJobs_43.png',
+    alt: 'Escada Metálica Preta Normatizada',
+    title: 'Escada Metálica Preta Normatizada',
+    description:
+      'Esta escada é a escolha perfeita para ambientes que exigem durabilidade e conformidade com normas regulatórias. A estrutura metálica robusta, pintada em preto elegante, oferecendo resistência e estabilidade',
+  },
+  {
     id: 2,
     name: 'Guarda-Corpo Metálico Ornamental para Escadas',
     src: '/recentJobs_2.png',
@@ -153,6 +162,15 @@ const constructionItems: ConstructionItem[] = [
     title: 'Passarela Metálica e Guarda-Corpo Artístico',
     description:
       'Com uma estrutura suportada por vigas W, esta passarela garante resistência e durabilidade. O destaque, no entanto, é seu guarda-corpo artístico, que combina segurança com design criativo, transformando um simples elemento funcional em uma expressão de arte visual.',
+  },
+  {
+    id: 45,
+    name: 'Guarda-Corpo Metálico com Tela Artística',
+    src: '/recentJobs_45.png',
+    alt: 'Guarda-Corpo Metálico com Tela Artística',
+    title: 'Guarda-Corpo Metálico com Tela Artística',
+    description:
+      'Este guarda-corpo combina a robustez do metal com a delicadeza de uma tela artisticamente desenhada, oferecendo uma solução que é tanto funcional quanto visualmente atraente. Ideal para varandas, escadarias, e mezaninos, a estrutura metálica garante durabilidade e resistência.',
   },
   {
     id: 9,
@@ -199,7 +217,24 @@ const constructionItems: ConstructionItem[] = [
     description:
       'Este design inovador elimina a necessidade de colunas de suporte, oferecendo um espaço de estacionamento amplo e desobstruído. Os tirantes rígidos garantem a estabilidade e durabilidade da estrutura, enquanto as telhas termoacústicas reduzem a transferência de calor e o ruído, criando um ambiente mais confortável e silencioso.',
   },
-
+  {
+    id: 44,
+    src: '/recentJobs_44.png',
+    name: 'Estrutura Metálica para Fachada Empresarial',
+    alt: 'Estrutura Metálica para Fachada Empresarial',
+    title: 'Estrutura Metálica para Fachada Empresarial',
+    description:
+      'Projetada para adicionar um toque de modernidade e imponência ao seu edifício. Fabricada com materiais de alta qualidade, esta estrutura metálica oferece durabilidade e resistência às intempéries, garantindo uma aparência impecável por muitos anos.',
+  },
+  {
+    id: 46,
+    name: 'Brises de Proteção para Janelas',
+    src: '/recentJobs_46.png',
+    alt: 'Brises de Proteção para Janelas',
+    title: 'Brises de Proteção para Janelas',
+    description:
+      'Disponíveis em uma variedade de materiais e acabamentos, nossos brises não apenas oferecem proteção funcional, mas também adicionam um toque de estilo moderno à fachada de qualquer edifício.',
+  },
   {
     id: 35,
     name: 'Floreira Calandrada em Aço Galvanizado',
@@ -217,6 +252,15 @@ const constructionItems: ConstructionItem[] = [
     title: 'Mezanino Industrial com Perfil Tubular e Piso Wall',
     description:
       'Esta estrutura robusta é ideal para adicionar um segundo nível de uso eficaz sem a necessidade de construções extensas. Fabricado com perfis tubulares industriais, o mezanino oferece durabilidade e resistência, suportando cargas pesadas com facilidade.',
+  },
+  {
+    id: 42,
+    name: 'Mezanino Metálico Preto Normatizado',
+    src: '/recentJobs_42.png',
+    alt: 'Mezanino Metálico Preto Normatizado',
+    title: 'Mezanino Metálico Preto Normatizado',
+    description:
+      'Este mezanino é a solução perfeita para espaços que exigem uma estrutura robusta e durável. Pintado de preto elegante, ele oferece resistência e estabilidade, garantindo a segurança e a conformidade com as normas regulatórias.',
   },
 ]
 
