@@ -77,11 +77,11 @@ export default function Home() {
         <MainJobsCarrousel />
       </div>
       <div className="w-5/6 sm:w-3/4 mt-12 animate-fade-left animate-once delay-1000">
-        <div className="flex justify-between items-center">
+        <div className="flex justify-around sm:justify-between items-center">
           <h2 className="font-extrabold text-2xl">Obras Recentes</h2>
           <Link
             href="/obras"
-            className="text-orange-600 text-sm sm:text-lg hover:text-brand-orange hover:border-b-brand-orange border-b border-b-orange-600"
+            className="text-orange-600 text-sm w-3/5 sm:w-auto sm:text-lg hover:text-brand-orange hover:border-b-brand-orange border-b border-b-orange-600"
           >
             Explorar mais
           </Link>
