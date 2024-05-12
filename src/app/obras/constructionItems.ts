@@ -8,7 +8,7 @@ const constructionItems: ConstructionItem[] = [
     alt: 'Marquise Metálica com Viga W e Perfil Tubular para Vidro',
     title: 'Marquise Metálica Tubular para Vidro',
     description:
-      'Esta combinação não só fortalece a estrutura, garantindo durabilidade e resistência, mas também prepara o caminho para uma integração perfeita com painéis de vidro, proporcionando uma cobertura elegante e luminosa.',
+      'Esta combinação não só fortalece a estrutura, garantindo durabilidade e resistência, como também prepara o caminho para uma integração perfeita com painéis de vidro, proporcionando uma cobertura elegante e luminosa.',
   },
   {
     id: 8,
@@ -17,7 +17,7 @@ const constructionItems: ConstructionItem[] = [
     alt: 'Marquise Metálica Preta Pronta para Vidro',
     title: 'Marquise Metálica Pronta para Vidro',
     description:
-      'Esta marquise combina a durabilidade do metal com a sofisticação do acabamento em preto, oferecendo um visual elegante que complementa qualquer fachada. Preparada para a instalação de vidro, proporciona não apenas proteção contra elementos externos, mas também permite a passagem de luz natural, criando um ambiente acolhedor e iluminado.',
+      'Esta marquise combina a durabilidade do metal com a sofisticação do acabamento em preto, oferecendo um visual elegante que complementa qualquer fachada. Preparada para a instalação de vidro, proporciona não só proteção contra elementos externos, mas também permite a passagem de luz natural, criando um ambiente acolhedor e iluminado.',
   },
   {
     id: 6,
@@ -35,7 +35,7 @@ const constructionItems: ConstructionItem[] = [
     alt: 'Marquise Metálica Artística Dupla para Vidro',
     title: 'Marquise Metálica Artística Dupla',
     description:
-      'Com uma estrutura dupla que proporciona um efeito visual impressionante, esta marquise é ideal para espaços que buscam uma combinação de estilo moderno e proteção eficaz. Preparada para acomodar vidro, ela oferece uma cobertura elegante e luminosa, permitindo a passagem de luz natural enquanto protege contra as intempéries. ',
+      'Com uma estrutura dupla que proporciona um efeito visual impressionante, esta marquise é ideal para espaços que buscam uma combinação de estilo moderno e proteção eficaz. Preparada para acomodar vidro, ela oferece uma cobertura elegante e luminosa, permitindo a passagem de luz natural enquanto protege contra as intempéries.',
   },
   {
     id: 18,
@@ -44,7 +44,7 @@ const constructionItems: ConstructionItem[] = [
     alt: 'Estruturas Metálicas para Escadas',
     title: 'Estrutura Metálica para Escada',
     description:
-      'Prepara a estrutura para futuras ampliações ou modificações. Paralelamente, nossa escada metálica com viga W central oferece uma solução de acesso duradoura e esteticamente agradável. Garantindo resistência e durabilidade, ideal para uso frequente.',
+      'Prepara a estrutura para futuras ampliações ou modificações. Paralelamente, nossa escada metálica com viga W central oferece uma solução de acesso duradoura e esteticamente agradável, garantindo resistência e durabilidade, ideal para uso frequente.',
   },
   {
     id: 10,
@@ -53,7 +53,7 @@ const constructionItems: ConstructionItem[] = [
     alt: 'Escada Metálica em L com Guarda-Corpo Normatizado',
     title: 'Escada Metálica Normatizada',
     description:
-      'Com uma viga lateral UDCe que proporciona estabilidade estrutural superior, e pisadas em chapa de aço antiderrapante, esta escada garante uma superfície segura sob qualquer condição de uso. O guarda-corpo, alinhado com as normas do corpo de bombeiros, assegura proteção adicional, tornando-a ideal para ambientes que exigem conformidade com elevados padrões de segurança.',
+      'Com uma viga lateral UDC que proporciona estabilidade estrutural superior e pisadas em chapa de aço antiderrapante, esta escada garante uma superfície segura sob qualquer condição de uso. O guarda-corpo, alinhado com as normas do corpo de bombeiros, assegura proteção adicional, tornando-a ideal para ambientes que exigem conformidade com elevados padrões de segurança.',
   },
   {
     id: 4,
@@ -62,7 +62,7 @@ const constructionItems: ConstructionItem[] = [
     alt: 'Escada Metálica Helicoidal preparada para Revestimento',
     title: 'Escada Metálica Helicoidal',
     description:
-      'Projetada para ser o centro das atenções em qualquer ambiente. Esta estrutura espiralada não apenas economiza espaço, mas também é construída com materiais de alta qualidade que garantem durabilidade e estabilidade. O design inteligente da escada inclui uma preparação especial para revestimentos futuros, permitindo que você personalize a aparência para combinar com a evolução do seu estilo interior.',
+      'Projetada para ser o centro das atenções em qualquer ambiente. Esta estrutura espiralada não só economiza espaço, como também é construída com materiais de alta qualidade que garantem durabilidade e estabilidade. O design inteligente da escada inclui uma preparação especial para revestimentos futuros, permitindo que você personalize a aparência para combinar com a evolução do seu estilo interior.',
   },
   {
     id: 13,
@@ -89,7 +89,7 @@ const constructionItems: ConstructionItem[] = [
     alt: 'Escada Metálica com Revestimento Personalizado',
     title: 'Escada Metálica com Revestimento',
     description:
-      'Construída com uma base de metal resistente, esta escada é revestida com materiais de alta qualidade que não apenas melhoram sua estética, mas também proporcionam proteção adicional contra desgastes e corrosão. Perfeita para ambientes residenciais, comerciais ou industriais.',
+      'Construída com uma base de metal resistente, esta escada é revestida com materiais de alta qualidade que não só melhoram sua estética, como também proporcionam proteção adicional contra desgastes e corrosão. Perfeita para ambientes residenciais, comerciais ou industriais.',
   },
   {
     id: 25,
@@ -125,7 +125,7 @@ const constructionItems: ConstructionItem[] = [
     alt: 'Escada Metálica Preta Normatizada',
     title: 'Escada Metálica Preta Normatizada',
     description:
-      'Esta escada é a escolha perfeita para ambientes que exigem durabilidade e conformidade com normas regulatórias. A estrutura metálica robusta, pintada em preto elegante, oferecendo resistência e estabilidade',
+      'Esta escada é a escolha perfeita para ambientes que exigem durabilidade e conformidade com normas regulatórias. A estrutura metálica robusta, pintada em preto elegante, oferece resistência e estabilidade.',
   },
   {
     id: 2,
@@ -143,7 +143,7 @@ const constructionItems: ConstructionItem[] = [
     alt: 'Guarda-Corpo Metálico com Tela Integrada',
     title: 'Guarda-Corpo Metálico com Tela Integrada',
     description:
-      'Guarda-Corpo Metálico com Tela Metálica Integrada é a escolha perfeita para quem busca proteção eficiente e estética contemporânea. Garantindo durabilidade e uma barreira segura contra quedas. A tela metálica oferece proteção sem obstruir a visão ou comprometer a entrada de luz natural, perfeita para ambientes que valorizam a transparência visual.',
+      'O Guarda-Corpo Metálico com Tela Metálica Integrada é a escolha perfeita para quem busca proteção eficiente e estética contemporânea. Garantindo durabilidade e uma barreira segura contra quedas, a tela metálica oferece proteção sem obstruir a visão ou comprometer a entrada de luz natural, sendo perfeita para ambientes que valorizam a transparência visual.',
   },
   {
     id: 30,
@@ -170,7 +170,7 @@ const constructionItems: ConstructionItem[] = [
     alt: 'Guarda-Corpo Metálico com Tela Artística',
     title: 'Guarda-Corpo Metálico com Tela Artística',
     description:
-      'Este guarda-corpo combina a robustez do metal com a delicadeza de uma tela artisticamente desenhada, oferecendo uma solução que é tanto funcional quanto visualmente atraente. Ideal para varandas, escadarias, e mezaninos, a estrutura metálica garante durabilidade e resistência.',
+      'Este guarda-corpo combina a robustez do metal com a delicadeza de uma tela artisticamente desenhada, oferecendo uma solução que é tanto funcional quanto visualmente atraente. Ideal para varandas, escadarias e mezaninos, a estrutura metálica garante durabilidade e resistência.',
   },
   {
     id: 9,
@@ -179,7 +179,7 @@ const constructionItems: ConstructionItem[] = [
     alt: 'Guarda-Corpo Metálico para Sacadas',
     title: 'Guarda-Corpo Metálico para Sacadas',
     description:
-      'Este guarda-corpo oferece durabilidade e resistência às intempéries, mantendo sua beleza e funcionalidade ao longo do tempo. O design elegante e minimalista se integra perfeitamente ao estilo arquitetônico do seu espaço, proporcionando não apenas segurança, mas também um toque de modernidade.',
+      'Este guarda-corpo oferece durabilidade e resistência às intempéries, mantendo sua beleza e funcionalidade ao longo do tempo. O design elegante e minimalista se integra perfeitamente ao estilo arquitetônico do seu espaço, proporcionando não só segurança, mas também um toque de modernidade.',
   },
   {
     id: 40,
@@ -188,7 +188,7 @@ const constructionItems: ConstructionItem[] = [
     alt: 'Guarda-Corpo Branco com Ornatos Artísticos',
     title: 'Guarda-Corpo Branco com Ornatos Artísticos',
     description:
-      'Este guarda-corpo não apenas cumpre sua função essencial de proteção, mas também serve como um elemento decorativo refinado. A cor branca oferece uma base neutra que destaca os detalhes ornamentados, transformando uma simples barreira de segurança em uma obra de arte.',
+      'Este guarda-corpo não só cumpre sua função essencial de proteção, como também serve como um elemento decorativo refinado. A cor branca oferece uma base neutra que destaca os detalhes ornamentados, transformando uma simples barreira de segurança em uma obra de arte.',
   },
   {
     id: 16,
@@ -233,7 +233,7 @@ const constructionItems: ConstructionItem[] = [
     alt: 'Brises de Proteção para Janelas',
     title: 'Brises de Proteção para Janelas',
     description:
-      'Disponíveis em uma variedade de materiais e acabamentos, nossos brises não apenas oferecem proteção funcional, mas também adicionam um toque de estilo moderno à fachada de qualquer edifício.',
+      'Disponíveis em uma variedade de materiais e acabamentos, nossos brises não só oferecem proteção funcional, como também adicionam um toque de estilo moderno à fachada de qualquer edifício.',
   },
   {
     id: 35,
