@@ -6,8 +6,8 @@ function AboutPage() {
       <div className="flex flex-col-reverse items-center justify-center lg:flex-row w-11/12 md:w-3/4 gap-4 mt-4 md:mt-20">
         <Image
           loading="lazy"
-          src="/template.png"
-          alt="template man"
+          src="/perfil.png"
+          alt="perfil image"
           width="371"
           height="453"
           className="rounded-xl mt-4 md:mt-0 animate-fade-right animate-once delay-500"
