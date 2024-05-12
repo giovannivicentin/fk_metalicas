@@ -22,7 +22,7 @@ export default function Home() {
           fill
           priority
           className="rounded-xl object-cover animate-fade-right animate-once delay-500"
-          alt="Uma obra como plano de fundo para o titulo principal da pagina"
+          alt="Uma obra como plano de fundo para o título principal da página"
         />
       </div>
 
@@ -50,7 +50,7 @@ export default function Home() {
             <GoHome className="h-6 w-6 mb-2" />
             <h3 className="font-bold text-lg">Instalação Completa</h3>
             <p className="text-orange-800 text-sm sm:text-md leading-relaxed mt-1">
-              Transportamos o produto ao local de destino e realiazmos a
+              Transportamos o produto ao local de destino e realizamos a
               instalação com muito cuidado e atenção em dia e horário a combinar
               com o cliente.
             </p>
@@ -62,7 +62,7 @@ export default function Home() {
             <p className="text-orange-800 text-sm sm:text-md leading-relaxed mt-1">
               Avaliamos o contexto da sua obra, bem como as suas necessidades e
               desejos para recomendar a solução que mais possa te satisfazer
-              dentro do prazo e orçamento possivel.
+              dentro do prazo e orçamento possível.
             </p>
           </div>
         </div>
@@ -71,7 +71,7 @@ export default function Home() {
         <h2 className="font-extrabold text-2xl">Principais Produtos</h2>
         <p className="text-sm sm:text-md mt-2">
           Os nossos produtos, que podem ser tanto de estilos mais artísticos
-          quanto mais casuais, são desenvolvidos em nossa matriz pela Equepe da
+          quanto mais casuais, são desenvolvidos em nossa matriz pela equipe da
           Frank Metálicas. Confira a seguir algumas das principais opções:
         </p>
         <MainJobsCarrousel />
@@ -90,7 +90,7 @@ export default function Home() {
         <RecentJobsCarrousel />
       </div>
 
-      {/* connect with google API to show avaliations */}
+      {/* connect with google API to show evaluations */}
     </div>
   )
 }
