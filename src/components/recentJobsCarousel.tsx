@@ -1,5 +1,4 @@
 'use client'
-
 import {
   Carousel,
   CarouselContent,
@@ -10,7 +9,7 @@ import {
 import Autoplay from 'embla-carousel-autoplay'
 import { RecentJobsItem } from './recentJobsItem'
 
-export function RecentJobsCarrousel() {
+export function RecentJobsCarousel() {
   return (
     <Carousel
       plugins={[
@@ -60,7 +59,7 @@ export function RecentJobsCarrousel() {
               src="/recentJobs_26.png"
               alt="Cobertura de Garagem com Telha Termoacústica"
               title="Cobertura com Termoacústica"
-              description="tirantes rígidos para estabilidade e telhas termoacústicas para conforto e silêncio."
+              description="Tirantes rígidos para estabilidade e telhas termoacústicas para conforto e silêncio."
             />
           </div>
         </CarouselItem>
@@ -70,7 +69,7 @@ export function RecentJobsCarrousel() {
               src="/recentJobs_10.png"
               alt="Escada Metálica em L com Guarda-Corpo Normatizado"
               title="Escada Metálica Normatizada em L"
-              description="Escada com pisadas antiderrapante, oferecendo estabilidade e segurança."
+              description="Escada com pisadas antiderrapantes, oferecendo estabilidade e segurança."
             />
           </div>
         </CarouselItem>

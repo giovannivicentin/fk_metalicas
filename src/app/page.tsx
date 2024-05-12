@@ -1,5 +1,5 @@
 import { MainJobsCarousel } from '@/components/mainJobsCarousel'
-import { RecentJobsCarrousel } from '@/components/recentJobsCarrousel'
+import { RecentJobsCarousel } from '@/components/recentJobsCarousel'
 import Link from 'next/link'
 import Image from 'next/image'
 import { GoHome } from 'react-icons/go'
@@ -87,7 +87,7 @@ export default function Home() {
           </Link>
         </div>
 
-        <RecentJobsCarrousel />
+        <RecentJobsCarousel />
       </div>
 
       {/* connect with google API to show evaluations */}

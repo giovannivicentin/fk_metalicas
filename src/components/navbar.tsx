@@ -145,7 +145,11 @@ export function Navbar() {
               size={30}
             />
           </Link>
-          <Link href="" target="_blank" rel="noopener noreferrer">
+          <Link
+            href="mailto:frank@frankmetalicas.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <AiFillMail
               className="text-neutral-900 hover:text-brand-orange transition-transform transform hover:scale-110"
               size={30}
