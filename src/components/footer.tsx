@@ -42,11 +42,11 @@ export function Footer() {
           id="contato"
         >
           <p className="text-muted text-center sm:text-end font-bold text-2xl mb-2">
-            Fale conosco
+            Fale Conosco
           </p>
           <div className="text-muted m-0 p-0 text-center sm:text-end flex flex-col gap-4">
             <p>
-              <span className="block"> Horário de Funcionamento:</span>
+              <span className="block">Horário de Funcionamento:</span>
               <span className="block">Segunda a sexta</span>
               <span>7h às 17h</span>
             </p>
@@ -62,7 +62,7 @@ export function Footer() {
                 href="tel:+5511994409000"
                 className="hover:text-brand-orange focus:text-brand-orange"
               >
-                (11) 99440-9000{' '}
+                (11) 99440-9000
               </a>
             </div>
 
@@ -97,8 +97,7 @@ export function Footer() {
               />
             </Link>
             <Link
-              href="https://api.whatsapp.com/send?phone=+5511994409000&text=Oi%2C%20Frank!%20Estou%20interessado%20em%20realizar%20um%20or%C3%A7amento.&source=&data=
-"
+              href="https://api.whatsapp.com/send?phone=+5511994409000&text=Oi%2C%20Frank!%20Estou%20interessado%20em%20realizar%20um%20or%C3%A7amento.&source=&data="
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -136,8 +135,7 @@ export function Footer() {
         <Link
           href="https://www.giovannivicentin.com/"
           target="_blank"
-          rel="noopener noreferrer
-          "
+          rel="noopener noreferrer"
           className="flex justify-center pb-1 items-center text-muted-foreground text-sm hover:text-purple-500 w-full"
         >
           Made by Giovanni Vicentin

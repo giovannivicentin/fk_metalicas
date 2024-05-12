@@ -1,4 +1,4 @@
-import { MainJobsCarrousel } from '@/components/mainJobsCarrousel'
+import { MainJobsCarousel } from '@/components/mainJobsCarousel'
 import { RecentJobsCarrousel } from '@/components/recentJobsCarrousel'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -74,7 +74,7 @@ export default function Home() {
           quanto mais casuais, são desenvolvidos em nossa matriz pela equipe da
           Frank Metálicas. Confira a seguir algumas das principais opções:
         </p>
-        <MainJobsCarrousel />
+        <MainJobsCarousel />
       </div>
       <div className="w-5/6 sm:w-3/4 mt-12 animate-fade-left animate-once delay-1000">
         <div className="flex justify-around sm:justify-between items-center">

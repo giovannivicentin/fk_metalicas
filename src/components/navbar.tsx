@@ -65,8 +65,7 @@ export function Navbar() {
               </li>
             </Link>
             <Link
-              href="https://api.whatsapp.com/send?phone=+5511994409000&text=Oi%2C%20Frank!%20Estou%20interessado%20em%20realizar%20um%20or%C3%A7amento.&source=&data=
-"
+              href="https://api.whatsapp.com/send?phone=+5511994409000&text=Oi%2C%20Frank!%20Estou%20interessado%20em%20realizar%20um%20or%C3%A7amento.&source=&data="
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -153,8 +152,7 @@ export function Navbar() {
             />
           </Link>
           <Link
-            href="https://api.whatsapp.com/send?phone=+5511994409000&text=Oi%2C%20Frank!%20Estou%20interessado%20em%20realizar%20um%20or%C3%A7amento.&source=&data=
-"
+            href="https://api.whatsapp.com/send?phone=+5511994409000&text=Oi%2C%20Frank!%20Estou%20interessado%20em%20realizar%20um%20or%C3%A7amento.&source=&data="
             target="_blank"
             rel="noopener noreferrer"
           >

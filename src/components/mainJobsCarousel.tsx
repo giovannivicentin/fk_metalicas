@@ -10,7 +10,7 @@ import {
 import Autoplay from 'embla-carousel-autoplay'
 import { MainJobsItem } from './mainJobsItem'
 
-export function MainJobsCarrousel() {
+export function MainJobsCarousel() {
   return (
     <Carousel
       plugins={[
@@ -48,7 +48,7 @@ export function MainJobsCarrousel() {
           <div className="p-1">
             <MainJobsItem
               title="Portões e Portas"
-              description="Oferecemos portões e portas robustos, duráveis e estilosos para maximizar a segurança e estética da sua propriedade."
+              description="Oferecemos portões e portas robustos, duráveis e estilosos para maximizar a segurança e a estética da sua propriedade."
               src="/gate.svg"
               alt="gate icon"
             />
