@@ -10,7 +10,7 @@ function ConstructionPage() {
           Obras em destaque
         </h1>
         <p className="text-start leading-relaxed text-sm sm:text-lg mt-1">
-          Explore alguns dos nossos trabalhos entregues. Para observair mais
+          Explore alguns dos nossos trabalhos entregues. Para observar mais
           detalhes, clique sobre a imagem escolhida por você.
         </p>
       </div>
