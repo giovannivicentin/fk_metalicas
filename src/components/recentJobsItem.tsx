@@ -15,16 +15,16 @@ export function RecentJobsItem({
   description,
 }: RecentJobsItemProps) {
   return (
-    <Card className="flex flex-col object-cover bg-background-color overflow-hidden border border-neutral-300">
+    <Card className="flex flex-col h-60 md:h-[17rem] object-cover bg-background-color overflow-hidden border border-neutral-300">
       <Image
         src={src}
         alt={alt}
         width={1920}
         height={1080}
-        className="w-full rounded-se-lg rounded-sw-lg max-h-40 object-cover"
+        className="w-full rounded-se-lg h-40 md:h-auto rounded-sw-lg object-cover"
       />
       <CardTitle className="my-2 px-4">{title}</CardTitle>
-      <CardDescription className="px-4 mb-2">{description}</CardDescription>
+      <CardDescription className="px-4 pb-2">{description}</CardDescription>
     </Card>
   )
 }

@@ -59,7 +59,7 @@ export function RecentJobsCarousel() {
               src="/recentJobs_26.png"
               alt="Cobertura de Garagem com Telha Termoacústica"
               title="Cobertura com Termoacústica"
-              description="Tirantes rígidos para estabilidade e telhas termoacústicas para conforto e silêncio."
+              description="Tirantes rígidos para estabilidade e termoacústica para conforto e silêncio."
             />
           </div>
         </CarouselItem>
