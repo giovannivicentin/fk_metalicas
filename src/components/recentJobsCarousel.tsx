@@ -29,7 +29,7 @@ export function RecentJobsCarousel() {
               src="/recentJobs_18.png"
               alt="Estruturas Metálicas para Escadas"
               title="Estruturas Metálicas para Escadas"
-              description="Durável e esteticamente agradável, ideal para ampliações futuras e uso frequente."
+              description="Durável e estética, ideal para ampliações futuras e uso frequente."
             />
           </div>
         </CarouselItem>
