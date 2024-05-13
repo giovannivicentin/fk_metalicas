@@ -1,64 +1,96 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import { AiFillFacebook, AiFillInstagram, AiFillMail } from 'react-icons/ai';
-import { RiWhatsappFill } from 'react-icons/ri';
+import { MainJobsCarousel } from '@/components/mainJobsCarousel'
+import { RecentJobsCarousel } from '@/components/recentJobsCarousel'
+import Link from 'next/link'
+import Image from 'next/image'
+import { GoHome } from 'react-icons/go'
+import { IoSettingsOutline } from 'react-icons/io5'
+import { PiSuitcaseSimple } from 'react-icons/pi'
 
 export default function Home() {
   return (
-    <main className="flex px-10 flex-col items-center justify-center min-h-screen bg-gradient-custom">
-      <div className="w-full sm:w-1/3 flex flex-col gap-10 items-center sm:text-justify text-center mb-10 leading-relaxed">
-        <Image
-          src="/logo_white.png"
-          alt="white logo"
-          width="270"
-          height="135"
-        />
-        <h1 className="text-l sm:text-xl text-white xs:w-1/3 sm:w-3/3">
-          Estamos construindo um novo site para aprimorar sua experiência!
-          Enquanto isso, conecte-se conosco nas redes sociais para ficar
-          atualizado. Agradecemos pela compreensão e mal podemos esperar para
-          revelar as novidades em breve!
+    <div className="min-h-screen py-8 flex flex-col items-center bg-background-color">
+      <div className="mt-14 sm:mt-16 w-5/6 sm:w-3/4 min-h-64 sm:min-h-[26rem] xl:min-h-[30rem] rounded-xl flex flex-col justify-end px-4 sm:px-14 py-4 sm:py-8 relative">
+        <h1 className="text-white font-extrabold text-2xl sm:text-6xl mb-4 mt-4 sm:mt-0 z-10 animate-fade-right animate-once delay-500">
+          Faça seu projeto virar aço!
         </h1>
+        <p className="text-white mb-8 sm:mb-12 text-sm sm:text-xl z-10 animate-fade-right animate-once delay-500">
+          Desde 2000, atuando como referência no segmento de construções
+          metálicas e se destacando pela excelência e segurança.
+        </p>
+        <Image
+          src="/presentation.jpg"
+          fill
+          priority
+          className="rounded-xl object-cover animate-fade-right animate-once delay-500"
+          alt="Uma obra como plano de fundo para o título principal da página"
+        />
+      </div>
 
-        <div className="flex flex-row gap-6 sm:gap-10">
-          <Link
-            href="https://www.facebook.com/frankmetalicas"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <AiFillFacebook
-              className="text-white hover:text-company-orange transition-transform transform hover:scale-110"
-              size={30}
-            />
-          </Link>
-          <Link
-            href="https://www.instagram.com/frankmetalicas"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <AiFillInstagram
-              className="text-white hover:text-company-orange transition-transform transform hover:scale-110"
-              size={30}
-            />
-          </Link>
-          <Link href="" target="_blank" rel="noopener noreferrer">
-            <AiFillMail
-              className="text-white hover:text-company-orange transition-transform transform hover:scale-110"
-              size={30}
-            />
-          </Link>
-          <Link
-            href="https://api.whatsapp.com/send?phone=+5511994409000&text=Oi%20Frank!%20Estou%20interessado%20em%20realizar%20um%20or%C3%A7amento%20com%20voc%C3%AA.&source=&data="
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <RiWhatsappFill
-              className="text-white hover:text-company-orange transition-transform transform hover:scale-110"
-              size={30}
-            />
-          </Link>
+      <div
+        className="w-5/6 sm:w-3/4 mt-12 animate-fade-left animate-once delay-1000"
+        id="servicos"
+      >
+        <h2 className="font-extrabold text-2xl">Nossos Serviços</h2>
+        <p className="text-sm sm:text-md mt-2">
+          A Frank Metálicas está preparada para te apoiar do começo ao fim nas
+          suas necessidades com estruturas metálicas. Confira como realizamos
+          isso:
+        </p>
+        <div className="flex flex-col sm:flex-row gap-3 mt-4">
+          <div className="p-4 w-full sm:w-1/3 rounded-xl hover:bg-gradient-to-br from-background-color to-neutral-50 hover:shadow-ourServices transition duration-500 border">
+            <IoSettingsOutline className="h-6 w-6 mb-2" />
+            <h3 className="font-bold text-lg">Fabricação Personalizada</h3>
+            <p className="text-orange-800 text-sm sm:text-md leading-relaxed mt-1">
+              Desenvolvemos cada produto de maneira única, levando em
+              consideração cada centímetro e etapa para garantir excelência e
+              segurança.
+            </p>
+          </div>
+          <div className="p-4 w-full sm:w-1/3 rounded-xl hover:bg-gradient-to-br from-background-color to-neutral-50 hover:shadow-ourServices transition duration-500 border">
+            <GoHome className="h-6 w-6 mb-2" />
+            <h3 className="font-bold text-lg">Instalação Completa</h3>
+            <p className="text-orange-800 text-sm sm:text-md leading-relaxed mt-1">
+              Transportamos o produto ao local de destino e realizamos a
+              instalação com muito cuidado e atenção em dia e horário a combinar
+              com o cliente.
+            </p>
+          </div>
+
+          <div className="p-4 w-full sm:w-1/3 rounded-xl hover:bg-gradient-to-br from-background-color to-neutral-50 hover:shadow-ourServices transition duration-500 border">
+            <PiSuitcaseSimple className="h-6 w-6 mb-2" />
+            <h3 className="font-bold text-lg">Consultoria Especializada</h3>
+            <p className="text-orange-800 text-sm sm:text-md leading-relaxed mt-1">
+              Avaliamos o contexto da sua obra, bem como as suas necessidades e
+              desejos para recomendar a solução que mais possa te satisfazer
+              dentro do prazo e orçamento possível.
+            </p>
+          </div>
         </div>
       </div>
-    </main>
-  );
+      <div className="w-5/6 sm:w-3/4 mt-12 animate-fade-right animate-once delay-1000">
+        <h2 className="font-extrabold text-2xl">Principais Produtos</h2>
+        <p className="text-sm sm:text-md mt-2">
+          Os nossos produtos, que podem ser tanto de estilos mais artísticos
+          quanto mais casuais, são desenvolvidos em nossa matriz pela equipe da
+          Frank Metálicas. Confira a seguir algumas das principais opções:
+        </p>
+        <MainJobsCarousel />
+      </div>
+      <div className="w-5/6 sm:w-3/4 mt-12 animate-fade-left animate-once delay-1000">
+        <div className="flex justify-around sm:justify-between items-center">
+          <h2 className="font-extrabold text-2xl">Obras Recentes</h2>
+          <Link
+            href="/obras"
+            className="text-orange-600 text-sm w-3/5 sm:w-auto sm:text-lg hover:text-brand-orange hover:border-b-brand-orange border-b border-b-orange-600"
+          >
+            Explorar mais
+          </Link>
+        </div>
+
+        <RecentJobsCarousel />
+      </div>
+
+      {/* connect with google API to show evaluations */}
+    </div>
+  )
 }
