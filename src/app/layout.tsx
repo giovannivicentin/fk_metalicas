@@ -17,7 +17,6 @@ const montserrat = Montserrat({
 })
 
 export const metadata: Metadata = {
-
   title: 'Frank Metálicas',
   description:
     'Faça seu projeto virar realidade! Presente no mercado desde 2000, a Frank Metálicas é especializada em construções metálicas e está pronta para tornar seu projeto uma realidade em aço.',
