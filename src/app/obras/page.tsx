@@ -6,7 +6,7 @@ function ConstructionPage() {
   return (
     <div className="min-h-lvh mx-2 md:mx-32 pb-20 bg-background-color">
       <div className="animate-fade-right animate-once delay-200">
-        <h1 className="pt-32 text-start text-2xl sm:text-3xl font-extrabold">
+        <h1 className="pt-20 sm:pt-28 text-start text-2xl sm:text-3xl font-extrabold">
           Obras em destaque
         </h1>
         <p className="text-start leading-relaxed text-sm sm:text-lg mt-1">
