@@ -16,10 +16,10 @@ import { Textarea } from './ui/textarea'
 import { Button } from './ui/button'
 
 const formSchema = z.object({
-  name: z.string().nonempty(),
-  email: z.string().email().nonempty(),
-  subject: z.string().nonempty(),
-  message: z.string().nonempty(),
+  name: z.string().nonempty('Nome é obrigatório'),
+  email: z.string().email('E-mail inválido').nonempty('E-mail é obrigatório'),
+  subject: z.string().nonempty('Assunto é obrigatório'),
+  message: z.string().nonempty('Mensagem é obrigatória'),
 })
 
 export function ResendForm() {
@@ -55,12 +55,13 @@ export function ResendForm() {
         subject: '',
         message: '',
       })
-      alert('Email was sent successfully')
+      alert('E-mail enviado com sucesso')
     } catch (error) {
       console.error('Error:', error)
-      alert('Email was not sent')
+      alert('Falha no envio do e-mail')
     }
   }
+
   return (
     <Form {...form}>
       <form onSubmit={form.handleSubmit(handleSubmit)}>

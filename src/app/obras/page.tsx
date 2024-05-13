@@ -9,12 +9,12 @@ function ConstructionPage() {
         <h1 className="pt-32 text-start text-2xl sm:text-3xl font-extrabold">
           Obras em destaque
         </h1>
-        <p className="text-start leading-relaxed text-sm sm:text-lg mt-4">
-          Explore alguns dos nossos trabalhos entregues. Para observair mais
+        <p className="text-start leading-relaxed text-sm sm:text-lg mt-1">
+          Explore alguns dos nossos trabalhos entregues. Para observar mais
           detalhes, clique sobre a imagem escolhida por você.
         </p>
       </div>
-      <div className="mt-8 animate-fade-up grid grid-cols-2 sm:grid-cols-4 gap-4 duration-1000 delay-400">
+      <div className="mt-8 animate-fade-up grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-4 duration-1000 delay-400">
         {constructionItems.map((item: ConstructionItem) => (
           <ConstructionPageItem
             key={item.id}

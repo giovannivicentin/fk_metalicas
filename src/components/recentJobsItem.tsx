@@ -19,8 +19,8 @@ export function RecentJobsItem({
       <Image
         src={src}
         alt={alt}
-        width={1760}
-        height={800}
+        width={1920}
+        height={1080}
         className="w-full rounded-se-lg rounded-sw-lg max-h-40 object-cover"
       />
       <CardTitle className="my-2 px-4">{title}</CardTitle>

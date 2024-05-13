@@ -65,8 +65,7 @@ export function Navbar() {
               </li>
             </Link>
             <Link
-              href="https://api.whatsapp.com/send?phone=+5511994409000&text=Oi%2C%20Frank!%20Estou%20interessado%20em%20realizar%20um%20or%C3%A7amento.&source=&data=
-"
+              href="https://api.whatsapp.com/send?phone=+5511994409000&text=Oi%2C%20Frank!%20Estou%20interessado%20em%20realizar%20um%20or%C3%A7amento.&source=&data="
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -146,15 +145,18 @@ export function Navbar() {
               size={30}
             />
           </Link>
-          <Link href="" target="_blank" rel="noopener noreferrer">
+          <Link
+            href="mailto:frank@frankmetalicas.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <AiFillMail
               className="text-neutral-900 hover:text-brand-orange transition-transform transform hover:scale-110"
               size={30}
             />
           </Link>
           <Link
-            href="https://api.whatsapp.com/send?phone=+5511994409000&text=Oi%2C%20Frank!%20Estou%20interessado%20em%20realizar%20um%20or%C3%A7amento.&source=&data=
-"
+            href="https://api.whatsapp.com/send?phone=+5511994409000&text=Oi%2C%20Frank!%20Estou%20interessado%20em%20realizar%20um%20or%C3%A7amento.&source=&data="
             target="_blank"
             rel="noopener noreferrer"
           >

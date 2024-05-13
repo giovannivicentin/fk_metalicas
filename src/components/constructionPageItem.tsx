@@ -23,19 +23,18 @@ export function ConstructionPageItem({
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <div className="cursor-pointer">
+        <div className="cursor-pointer hover:scale-110 transition-transform duration-300 hover:text-orange-600">
           <div className="flex flex-col">
             <Image
               src={src}
               alt={alt}
-              width={1760}
-              height={800}
+              width={1920}
+              height={1080}
               className="w-60 rounded-lg max-h-40"
             />
-            <h2 className="mt-2 text-sm sm:text-lg">
-              <strong>{title}</strong>
+            <h2 className="mt-2 text-[0.7rem] leading-[0.8rem] sm:leading-[1rem] sm:text-[1rem] sm:pr-5 font-medium text-center">
+              {title}
             </h2>
-            <p className="mt-1 text-xs sm:text-sm">{description}</p>
           </div>
         </div>
       </DialogTrigger>
@@ -44,9 +43,9 @@ export function ConstructionPageItem({
           <Image
             src={src}
             alt={alt}
-            width={1760}
-            height={800}
-            className="w-full mt-4 rounded-lg"
+            width={1920}
+            height={1080}
+            className="mt-4 rounded-lg"
           />
           {title}
         </DialogTitle>

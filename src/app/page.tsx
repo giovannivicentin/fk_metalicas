@@ -1,5 +1,5 @@
-import { MainJobsCarrousel } from '@/components/mainJobsCarrousel'
-import { RecentJobsCarrousel } from '@/components/recentJobsCarrousel'
+import { MainJobsCarousel } from '@/components/mainJobsCarousel'
+import { RecentJobsCarousel } from '@/components/recentJobsCarousel'
 import Link from 'next/link'
 import Image from 'next/image'
 import { GoHome } from 'react-icons/go'
@@ -18,13 +18,11 @@ export default function Home() {
           metálicas e se destacando pela excelência e segurança.
         </p>
         <Image
-          src="/apresentation.jpg"
-          layout="fill"
-          objectFit="cover"
+          src="/presentation.jpg"
+          fill
           priority
-          quality={100}
-          className="rounded-xl  animate-fade-right animate-once delay-500"
-          alt="Descrição da imagem"
+          className="rounded-xl object-cover animate-fade-right animate-once delay-500"
+          alt="Uma obra como plano de fundo para o título principal da página"
         />
       </div>
 
@@ -34,10 +32,11 @@ export default function Home() {
       >
         <h2 className="font-extrabold text-2xl">Nossos Serviços</h2>
         <p className="text-sm sm:text-md mt-2">
-          A Frank Metálicas está preparada para te apoiar do começo ao fim da
-          necessidade com estrutura metálica. Confira como realizamos isso :
+          A Frank Metálicas está preparada para te apoiar do começo ao fim nas
+          suas necessidades com estruturas metálicas. Confira como realizamos
+          isso:
         </p>
-        <div className="flex flex-col sm:flex-row gap-3 mt-12">
+        <div className="flex flex-col sm:flex-row gap-3 mt-4">
           <div className="p-4 w-full sm:w-1/3 rounded-xl hover:bg-gradient-to-br from-background-color to-neutral-50 hover:shadow-ourServices transition duration-500 border">
             <IoSettingsOutline className="h-6 w-6 mb-2" />
             <h3 className="font-bold text-lg">Fabricação Personalizada</h3>
@@ -51,7 +50,7 @@ export default function Home() {
             <GoHome className="h-6 w-6 mb-2" />
             <h3 className="font-bold text-lg">Instalação Completa</h3>
             <p className="text-orange-800 text-sm sm:text-md leading-relaxed mt-1">
-              Transportamos o produto ao local de destino e realiazmos a
+              Transportamos o produto ao local de destino e realizamos a
               instalação com muito cuidado e atenção em dia e horário a combinar
               com o cliente.
             </p>
@@ -63,7 +62,7 @@ export default function Home() {
             <p className="text-orange-800 text-sm sm:text-md leading-relaxed mt-1">
               Avaliamos o contexto da sua obra, bem como as suas necessidades e
               desejos para recomendar a solução que mais possa te satisfazer
-              dentro do prazo e orçamento possivel.
+              dentro do prazo e orçamento possível.
             </p>
           </div>
         </div>
@@ -72,26 +71,26 @@ export default function Home() {
         <h2 className="font-extrabold text-2xl">Principais Produtos</h2>
         <p className="text-sm sm:text-md mt-2">
           Os nossos produtos, que podem ser tanto de estilos mais artísticos
-          quanto mais casuais, são desenvolvidos em nossa matriz pela Equepe da
+          quanto mais casuais, são desenvolvidos em nossa matriz pela equipe da
           Frank Metálicas. Confira a seguir algumas das principais opções:
         </p>
-        <MainJobsCarrousel />
+        <MainJobsCarousel />
       </div>
       <div className="w-5/6 sm:w-3/4 mt-12 animate-fade-left animate-once delay-1000">
-        <div className="flex justify-between items-center">
+        <div className="flex justify-around sm:justify-between items-center">
           <h2 className="font-extrabold text-2xl">Obras Recentes</h2>
           <Link
             href="/obras"
-            className="text-orange-600 text-sm sm:text-lg hover:text-brand-orange hover:border-b-brand-orange border-b border-b-orange-600"
+            className="text-orange-600 text-sm w-3/5 sm:w-auto sm:text-lg hover:text-brand-orange hover:border-b-brand-orange border-b border-b-orange-600"
           >
             Explorar mais
           </Link>
         </div>
 
-        <RecentJobsCarrousel />
+        <RecentJobsCarousel />
       </div>
 
-      {/* connect with google API to show avaliations */}
+      {/* connect with google API to show evaluations */}
     </div>
   )
 }
