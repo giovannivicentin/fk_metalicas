@@ -23,7 +23,7 @@ export function ConstructionPageItem({
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <div className="cursor-pointer hover:scale-110 transition-transform duration-300 hover:text-orange-600">
+        <div className="cursor-pointer hover:scale-105 sm:hover:scale-110 transition-transform duration-300 hover:text-orange-600">
           <div className="flex flex-col">
             <Image
               src={src}
