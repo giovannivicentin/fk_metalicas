@@ -31,6 +31,10 @@ export function ConstructionPageItem({
               width={1920}
               height={1080}
               className="w-60 rounded-lg max-h-40"
+              style={{
+                maxWidth: '100%',
+                height: 'auto',
+              }}
             />
             <h2 className="mt-2 text-[0.7rem] leading-[0.8rem] sm:leading-[1rem] sm:text-[1rem] sm:pr-5 font-medium text-center">
               {title}
@@ -46,6 +50,10 @@ export function ConstructionPageItem({
             width={1920}
             height={1080}
             className="mt-4 rounded-lg"
+            style={{
+              maxWidth: '100%',
+              height: 'auto',
+            }}
           />
           {title}
         </DialogTitle>

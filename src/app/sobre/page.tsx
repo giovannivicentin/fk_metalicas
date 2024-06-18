@@ -8,13 +8,16 @@ function AboutPage() {
           loading="lazy"
           src="/perfil.png"
           alt="perfil image"
-          layout="responsive"
           width={1536}
           height={2048}
           className="rounded-xl w-full h-auto mt-4 xl:mt-0 animate-fade-right animate-once delay-500"
           sizes="(max-width: 768px) 100vw, 
              (max-width: 1200px) 50vw, 
              33vw"
+          style={{
+            width: '100%',
+            height: 'auto',
+          }}
         />
         <div className="animate-fade-left animate-once delay-300">
           <h2 className="text-center leading-relaxed text-2xl font-extrabold">

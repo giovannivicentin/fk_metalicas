@@ -22,6 +22,10 @@ export function MainJobsItem({
         width={50}
         height={50}
         className="text-black w-10 h-10 sm:w-12 sm:h-12"
+        style={{
+          maxWidth: '100%',
+          height: 'auto',
+        }}
       ></Image>
       <CardTitle className="my-2 sm:my-4 sm:text-4xl text-xl">
         {title}
