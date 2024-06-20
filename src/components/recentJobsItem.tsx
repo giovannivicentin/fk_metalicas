@@ -22,6 +22,10 @@ export function RecentJobsItem({
         width={1920}
         height={1080}
         className="w-full rounded-se-lg h-40 md:h-auto rounded-sw-lg object-cover"
+        style={{
+          maxWidth: '100%',
+          height: 'auto',
+        }}
       />
       <CardTitle className="my-2 px-4">{title}</CardTitle>
       <CardDescription className="px-4 pb-2">{description}</CardDescription>

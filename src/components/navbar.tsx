@@ -39,6 +39,10 @@ export function Navbar() {
               height={60}
               className="w-24 h-12 md:w-24 md:h-12 cursor-pointer"
               priority
+              style={{
+                maxWidth: '100%',
+                height: 'auto',
+              }}
             />
           </Link>
         </div>

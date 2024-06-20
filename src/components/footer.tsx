@@ -123,6 +123,10 @@ export function Footer() {
                 alt="Google logo"
                 width={60}
                 height={20}
+                style={{
+                  maxWidth: '100%',
+                  height: 'auto',
+                }}
               />
             </Button>
           </Link>
