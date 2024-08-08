@@ -1,8 +1,9 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
+
+import { Footer } from '@/components/footer'
+import { Navbar } from '@/components/navbar'
 import { Heebo, Montserrat } from 'next/font/google'
 import './globals.css'
-import { Navbar } from '@/components/navbar'
-import { Footer } from '@/components/footer'
 
 const heebo = Heebo({
   weight: ['400', '700'],
@@ -38,7 +39,6 @@ export const metadata: Metadata = {
     ],
   },
   robots: 'index, follow',
-  viewport: 'width=device-width, initial-scale=1.0',
   category: 'Construção Metálica',
   keywords: [
     'Frank Vicentin',
@@ -84,6 +84,12 @@ export const metadata: Metadata = {
     'Galvanização de Aço',
     'Caldeiraria',
   ],
+}
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
 }
 
 export default function RootLayout({
