@@ -1,7 +1,7 @@
 import { MainJobsCarousel } from '@/components/mainJobsCarousel'
 import { RecentJobsCarousel } from '@/components/recentJobsCarousel'
-import Link from 'next/link'
 import Image from 'next/image'
+import Link from 'next/link'
 import { GoHome } from 'react-icons/go'
 import { IoSettingsOutline } from 'react-icons/io5'
 import { PiSuitcaseSimple } from 'react-icons/pi'

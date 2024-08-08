@@ -2,14 +2,14 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
-import { RiWhatsappFill } from 'react-icons/ri'
 import {
-  AiOutlineMenu,
-  AiOutlineClose,
   AiFillFacebook,
   AiFillInstagram,
   AiFillMail,
+  AiOutlineClose,
+  AiOutlineMenu,
 } from 'react-icons/ai'
+import { RiWhatsappFill } from 'react-icons/ri'
 import { Button } from './ui/button'
 
 export function Navbar() {

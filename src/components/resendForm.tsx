@@ -7,13 +7,13 @@ import {
   FormMessage,
 } from './ui/form'
 
-import * as z from 'zod'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { useForm } from 'react-hook-form'
+import * as z from 'zod'
 
+import { Button } from './ui/button'
 import { Input } from './ui/input'
 import { Textarea } from './ui/textarea'
-import { Button } from './ui/button'
 
 const formSchema = z.object({
   name: z.string().nonempty('Nome é obrigatório'),
