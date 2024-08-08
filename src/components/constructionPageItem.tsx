@@ -36,7 +36,7 @@ export function ConstructionPageItem({
                 height: 'auto',
               }}
             />
-            <h2 className="mt-2 w-60 text-[0.7rem] leading-[0.8rem] sm:leading-[1rem] sm:text-[1rem] sm:pr-5 font-medium text-center">
+            <h2 className="mt-2 w-44 sm:w-40 text-center lg:w-60 text-[0.7rem] leading-[0.8rem] lg:leading-[1rem] lg:text-[1rem] font-medium">
               {title}
             </h2>
           </div>
