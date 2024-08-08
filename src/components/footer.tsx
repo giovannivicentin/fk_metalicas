@@ -1,11 +1,11 @@
 'use client'
-import Link from 'next/link'
 import Image from 'next/image'
+import Link from 'next/link'
 
 import { AiFillFacebook, AiFillInstagram } from 'react-icons/ai'
 import { RiWhatsappFill } from 'react-icons/ri'
-import { Button } from './ui/button'
 import { ResendForm } from './resendForm'
+import { Button } from './ui/button'
 
 export function Footer() {
   return (
@@ -140,9 +140,9 @@ export function Footer() {
           href="https://www.giovannivicentin.com/"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex justify-center pb-1 items-center text-muted-foreground text-sm hover:text-purple-500 w-full"
+          className="flex justify-center pb-1 items-center text-muted-foreground text-sm hover:text-brand-orange focus:text-brand-orange w-full"
         >
-          Made by Giovanni Vicentin
+          Desenvolvido por Giovanni Vicentin
         </Link>
       </div>
     </footer>
