@@ -1,11 +1,11 @@
-import Image from 'next/image'
 import {
   Dialog,
   DialogContent,
-  DialogTrigger,
-  DialogTitle,
   DialogDescription,
+  DialogTitle,
+  DialogTrigger,
 } from '@/components/ui/dialog'
+import Image from 'next/image'
 
 interface ConstructionPageItemProps {
   src: string
@@ -24,7 +24,7 @@ export function ConstructionPageItem({
     <Dialog>
       <DialogTrigger asChild>
         <div className="cursor-pointer hover:scale-105 sm:hover:scale-110 transition-transform duration-300 hover:text-orange-600">
-          <div className="flex flex-col">
+          <div className="flex flex-col items-center justify-center">
             <Image
               src={src}
               alt={alt}
@@ -36,7 +36,7 @@ export function ConstructionPageItem({
                 height: 'auto',
               }}
             />
-            <h2 className="mt-2 text-[0.7rem] leading-[0.8rem] sm:leading-[1rem] sm:text-[1rem] sm:pr-5 font-medium text-center">
+            <h2 className="mt-2 w-60 text-[0.7rem] leading-[0.8rem] sm:leading-[1rem] sm:text-[1rem] sm:pr-5 font-medium text-center">
               {title}
             </h2>
           </div>
