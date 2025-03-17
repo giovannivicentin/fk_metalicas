@@ -21,7 +21,10 @@ export const metadata: Metadata = {
   title: 'Frank Metálicas',
   description:
     'Faça seu projeto virar realidade! Presente no mercado desde 2000, a Frank Metálicas é especializada em construções metálicas e está pronta para tornar seu projeto uma realidade em aço.',
-  authors: { name: 'Giovanni Vicentin', url: 'https://giovannivicentn.com' },
+  authors: {
+    name: 'Giovanni Vicentin',
+    url: 'https://www.giovannivicentin.com',
+  },
   generator: 'Next.js, React, Tailwind, Node, Vercel, Google Fonts',
   metadataBase: new URL('https://frankmetalicas.com'),
   creator: 'Giovanni Vicentin',
